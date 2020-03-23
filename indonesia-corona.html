@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Corona Cluster Covid-19</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/animate.css"> -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="language" content="id" />
+    <meta name="title" content="Tentang COVID-19"/>
+    <meta name="description" content="Segala-gala tentang covid-19" />
+    <meta http-equiv="pragma" content="no cache">
+    <meta name="author" content="Tempo.co">
+    <meta name="keywords" content="Kekerasan, HAM, Hari Pers Nasional, Jurnalis, Jurnalis Indonesia">
+    <meta name="description" content="Segala-gala tentang covid-19">
+    <meta name="copyright" content="">
+    <meta name="coverage" content="WorldWide">
+    <meta name="creation date" content="2019-12-29">
+    <meta name="rating" content="General">
+    <meta name="robots" content="follow">
+    <meta prperty="og:title" content="Tentang COVID-19"/>
+    <meta property="og:description" content="Segala-gala tentang covid-19" />
+    <meta property="og:image" content="assets/images/virus.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tentang COVID-19" />
+    <meta name="twitter:description" content="Segala-gala tentang covid-19" />
+    <meta name="twitter:image:src" content="assets/images/virus.png">
+    <meta name="twitter:image:width" content="650" />
+    <meta name="twitter:image:height" content="433" />
+	<!-- LOAD D3.JS -->
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <script src="assets/js/jquery3.js"></script>
+	</head>
+	<body>
+		<div class="container">
+            <h1 id="title" data-aos="fade-up">Kondisi <font class="name-covid">covid-19</font></h1>
+            <center><p data-aos="zoom-in">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></center>
+            <div class="count-covid">
+                <div class="col-4" data-aos="zoom-in">
+                    <h3 class="positif title">KASUS POSITIF</h3>
+                    <div class="positif count">227</div>
+                </div>
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="50">
+                    <h3 class="sembuh title">SEMBUH</h3>
+                    <div class="sembuh count">11</div>
+                </div>
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="mati title">MENINGGAL</h3>
+                    <div class="mati count">19</div>
+                </div>
+            </div>
+			<div class="corona-container">
+				<div class="form-left"  data-aos="fade-up">
+                    <label><strong>PENGELOMPOKAN:</strong>
+                        <select onchange="updateAll()">
+                            <option id="normal" selected value="volvo" onchange="updateAll()">Normal</option>
+                            <option id="cluster" value="cluster" >Klaster</option>
+                            <option id="gender" value="gender" >Jenis Kelamin</option>
+                            <option id="umur" value="umur" >Usia</option>
+                        </select>
+                    </label>
+                </div>
+                <ul class="legends" id="normals" data-aos="fade-up">
+                    <li><span class="legend positif"></span> SEDANG DIRAWAT</li>
+                    <li><span class="legend sembuh"></span> SEMBUH</li>
+                    <li><span class="legend mati"></span> MENINGGAL</li>
+                </ul>
+                <ul class="legends" id="klaster" data-aos="fade-up">
+                    <li><span class="legend" style="background-color:#fb0a0a;"></span> Jakarta</li>
+                    <li><span class="legend" style="background-color:#fb0ad0;"></span> Diamond Princess</li>
+                    <li><span class="legend" style="background-color:#1b0afb;"></span> Kasus Impor</li>
+                    <li><span class="legend" style="background-color:#0afbed;"></span> Jakarta Impor</li>
+                    <li><span class="legend" style="background-color:#0afb21;"></span> Subklaster 3</li>
+                    <li><span class="legend" style="background-color:#f9fc1d;"></span> Subklaster 1</li>
+                    <li><span class="legend" style="background-color:#fc9b1d;"></span> Subklaster 20</li>
+                    <li><span class="legend" style="background-color:#767974;"></span> Tidak diketahui</li>
+                    <li><span class="legend" style="background-color:#1db0fc;"></span> istana negara</li>
+                </ul>
+                <ul class="legends" id="usia" data-aos="fade-up">
+                    <li><span class="legend" style="background-color:#2d16b9;"></span> 0-9 tahun</li>
+                    <li><span class="legend" style="background-color:#3f23b2;"></span> 10-19 tahun</li>
+                    <li><span class="legend" style="background-color:#4c2fac;"></span> 20-29 tahun</li>
+                    <li><span class="legend" style="background-color:#5639a5;"></span> 30-39 tahun</li>
+                    <li><span class="legend" style="background-color:#5d439e;"></span> 40-49 tahun</li>
+                    <li><span class="legend" style="background-color:#644c98;"></span> 50-59 tahun</li>
+                    <li><span class="legend" style="background-color:#695591;"></span> 60-69 tahun</li>
+                    <li><span class="legend" style="background-color:#6e5e8a;"></span> 70-79 tahun</li>
+                    <li><span class="legend" style="background-color:#716783;"></span> 80-89 tahun</li>
+                    <li><span class="legend" style="background-color:#74707b;"></span> 90-99 tahun</li>
+                    <li><span class="legend" style="background-color:#767974;"></span> tidak diketahui</li>
+                </ul>
+                <ul class="legends" id="jeniskelamin" data-aos="fade-up">
+                    <li><span class="legend" style="background-color:#f513f2;"></span> perempuan</li>
+                    <li><span class="legend" style="background-color:#1328f5;"></span> laki-laki</li>
+                    <li><span class="legend" style="background-color:#767974;"></span> tidak diketahui</li>
+                </ul>
+            </div>
+            <p data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta sint animi repellendus sed quas facere quos hic culpa, itaque sit aliquid nihil! Quam totam repudiandae necessitatibus modi dolorum tempora.</p>
+        </div>
+        <script src="assets/js/hammer.js"></script>
+        <script>
+            AOS.init();
+        </script>
+		<script type="text/javascript" src="assets/js/corona.js"></script>
+	</body>
+</html>
