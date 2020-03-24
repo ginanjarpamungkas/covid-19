@@ -281,7 +281,7 @@ function initializeDisplay() {
                     <div>
                     <h4 class='kasus'>Kasus #` + d.id + `</h4>
                     <h4>` + d.gender + `</h4>
-                    <h4>` + d.umurtext + ` TAHUN</h4>
+                    <h4>` + d.umurtext + `</h4>
                     <h4>`+ d.klaster + `</h4><br/></div>
                 `).style('visibility','visible').style("left", ((d3.event.pageX)+10)+ "px").style("top", (d3.event.pageY - 28) + "px");
 			})

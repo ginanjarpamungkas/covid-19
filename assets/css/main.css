@@ -55,6 +55,7 @@ a{text-decoration: none;}
 .transmisi{display: unset;}
 .content-slider-atasi ul,.transmisi-content ul{display: flex;padding: 50pt;}
 .content-slider-atasi ul li,.transmisi-content ul li{margin: 30px;font-weight: bold;}
+p.padding{padding: 0 50pt;}
 .single-content{padding: 50pt;}
 .single-content img.transmisi {width: 300px;margin: 0 auto;}
 .single-content p {font-size: 25px;font-weight: bold;}
@@ -89,7 +90,7 @@ h3.mati{color: #fe0a0a;}
 .legend.mati{background-color: #fe0a0a;}
 .container p {padding: 0 25%;}
 
-footer{font-size: 1rem;font-weight: 400;line-height: 1.5;text-align: left;box-sizing: border-box;display: block;position: relative;z-index: 0;margin: 100px 0 0;display: none;}
+footer{font-size: 1rem;font-weight: 400;line-height: 1.5;text-align: left;box-sizing: border-box;display: block;position: relative;z-index: 0;margin: 100px 0 0}
 .row {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;padding-right: 100px;padding-left: 100px;}
 .col-sm-6 {-webkit-box-flex: 0;-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
 footer .credit p {font-size: 1em;letter-spacing: 0.6pt;margin: 0;line-height: 130%;}
@@ -138,7 +139,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
     .box-3,.box-4{bottom: 150px;}
     .box-5{bottom: 5px;}
     .human-covid{margin: 1em;}
-    .container p {padding: 0 25%;}
+    p.padding,.container p {padding: 0 25%;}
 }
 
 @media only screen and (max-width:650px){
@@ -164,15 +165,16 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
 
     ul.box-box-slider {display: block;}
     .transmisi-content ul {padding: 20pt 6pt;}
-    .single-content {padding: 20pt 40px;}
-    .single-content p {font-weight: unset;}
-    .single-content img.transmisi {width: 200px;}
+    .content-slider-atasi, .single-content {padding: 20pt 40px;}
+    .content-slider-atasi p,.single-content p {font-weight: unset;}
+    .content-slider-atasi img.transmisi,.single-content img.transmisi {width: 200px;}
+    p.padding{padding:0}
 
     .row {padding-left: 0;padding-right: 0;display: block;}
     .col-sm-6{position: relative;max-width: 100%;}
 
     .count-covid{grid-template-areas:'main';padding: 20pt;}
-    .container p {padding: 5%;}
+    .container p {padding: 0 40px;}
     .legends li {display: inline;}
 }
 
