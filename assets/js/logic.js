@@ -1,32 +1,19 @@
 $(document).on('input','.slider-covid',function() {
     var value = $(this).val()
-    if (value <= 33) {
+    if (value <= 50) {
         $('.box-slider-list').attr('class','box-slider-list')
         $('#human1').attr('class','active')
         $('#human1').find('span').attr('class','active name-covid')
         $('#box-slider1').attr('class','box-slider-list active')
         $('#human2').attr('class','')
         $('#human2').find('span').attr('class','name-covid')
-        $('#human3').attr('class','')
-        $('#human3').find('span').attr('class','name-covid')
-    } else if( value < 73 && value >33) {
+    } else if( value >50) {
         $('.box-slider-list').attr('class','box-slider-list')
         $('#human1').attr('class','')
         $('#human1').find('span').attr('class','name-covid')
         $('#human2').attr('class','active')
         $('#human2').find('span').attr('class','active name-covid')
         $('#box-slider2').attr('class','box-slider-list active')
-        $('#human3').attr('class','')
-        $('#human3').find('span').attr('class','name-covid')
-    } else{
-        $('.box-slider-list').attr('class','box-slider-list')
-        $('#human1').attr('class','')
-        $('#human1').find('span').attr('class','name-covid')
-        $('#human2').attr('class','')
-        $('#human2').find('span').attr('class','name-covid')
-        $('#human3').attr('class','active')
-        $('#human3').find('span').attr('class','active name-covid')
-        $('#box-slider3').attr('class','box-slider-list active')
     }
 })
 

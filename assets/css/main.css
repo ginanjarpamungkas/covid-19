@@ -1,4 +1,3 @@
-html{scroll-behavior: smooth;}
 body{font-family: 'Montserrat',sans-serif;background-color: #00455c;margin: 0;color: #fff;overflow-x: hidden;}
 body.hide-scroll{overflow: hidden;max-height: 100vh;}
 h1,h2,h3,h4,h5{margin: 0;}
@@ -9,7 +8,7 @@ a{text-decoration: none;}
 .hide {display: none;}
 .covid-hide {opacity: 0;position: absolute;z-index: -1000;width: 100%;height: 20px;overflow: hidden;}
 .question {position: absolute;z-index: 1;background-color: #00455c;}
-.section-3,.section-4,.section-5,.section-1{height: 100vh;}
+.section-3,.section-5,.section-1{height: 100vh;}
 .main{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;overflow: hidden;background-color: #00455c;}
 .name-covid{color: #ffca04;}
 .main .menu-covid{margin-top: 50px;}
@@ -18,15 +17,15 @@ a{text-decoration: none;}
 .menu-covid li a:hover, .game-start:hover{background-color: rgb(255,255,255,0.5);}
 
 .covid-virus {height:80vh;width: 100%;position: relative;display: flex;flex-direction: column;justify-content: center;align-items: center;}
-.section-1 .covid-virus .virus{width: 250px;webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;}
-.box,.box-slider{position: absolute;background-color: #fff;border-radius: 30px;max-width: 200px;padding: 8pt 26pt;font-weight: 300;color: #000;}
-.box-1 {left: 100px;top: 50px;}
-.box-2 {right: 100px;top: 50px;}
-.box-3 {left: 100px;bottom: 100px;}
-.box-4 {right: 100px;bottom:100px}
+.section-1 .covid-virus .virus{width: 250px;webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;margin-top:-10vh;}
+.box,.box-slider{position: absolute;background-color: #fff;border-radius: 20px;max-width: 40vh;padding: 8pt 14pt;font-weight: 300;color: #000;}
+.box-1 {left: 10vw;top: 5vh;}
+.box-2 {right: 10vw;top: 5vh;}
+.box-3 {left: 10vw;bottom: 15vh;}
+.box-4 {right: 10vw;bottom:15vh}
 .box-5 {bottom: 10px;}
 
-.human-covid {display: flex;}
+.human-covid {display: flex;width: 50%;justify-content: center;}
 .box-slider {position: unset;}
 
 .slider-covid {width: 50%;color: #ffca04;}
@@ -82,6 +81,7 @@ h3.mati{color: #fe0a0a;}
 .tooltip{position: absolute;padding: 8pt;z-index: 10;width: fit-content;margin: auto;background-color: #046183;font-family: 'Montserrat',sans-serif;top: 100px;visibility:hidden;}
 .tooltip h4 {margin: 5px auto;font-weight: bold;}
 .tooltip h4.kasus{border-bottom: 10px solid #fff;}
+.container p.source{padding-left:15pt;position: absolute;left: 0;bottom: 0;}
 .legends{padding: 15pt;font-weight: bolder;position: absolute;right: 0;bottom: 0;display: none;}
 .legends li {margin: 10px auto;text-transform: uppercase;}
 .legend{padding: 1px 10px ;margin-right: 2px;}
@@ -121,9 +121,13 @@ footer .mouse-scroll {display: none;text-align: center;color: #fff;font-size: 0.
 footer .mouse-scroll .icon-arrow {position: absolute;top: initial;left: 50%;right: initial;bottom: 20px;width: 24px;height: 24px;margin-left: -12px;border-left: 3px solid #fff;border-bottom: 3px solid #fff;-webkit-transform: rotate(135deg);transform: rotate(135deg);-webkit-animation: back-top 1.5s infinite;animation: back-top 1.5s infinite;}
 footer .mouse-scroll:hover{color: rgb(255,255,255,0.5)}
 footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.5);border-bottom: 3px solid rgb(255,255,255,0.5);}
-
+.map-container{padding: 0 50pt;margin-bottom: 50px;}
 @media only screen and (max-width:1200px){
     h1 {font-size: 80px;}
+    .section-3 {height: fit-content;}
+    .box-2{top:15vh}
+    .box-3{bottom:25vh}
+    .box-5{bottom:5vh}
     .box-1,.box-3{left: 50px;}
     .box-2,.box-4{right: 50px;}
     .section-1 .covid-virus .virus {width: 300px;}
@@ -136,24 +140,30 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
     .menu-covid li a,.game-start{font-size: 30px;}
     .box-1,.box-3{left: 10px;}
     .box-2,.box-4{right: 10px;}
-    .box-3,.box-4{bottom: 150px;}
+    .box-4{bottom:100px}
     .box-5{bottom: 5px;}
-    .human-covid{margin: 1em;}
+    .human-covid{margin: 1em;width: 80%;}
+    .slider-covid {width: 60%;}
+    .slider-covid::-webkit-slider-runnable-track {width: 60%;}
+    .slider-covid::-moz-range-track {width: 60%;}
+    .slider-covid::-ms-track {width: 60%;}
     p.padding,.container p {padding: 0 25%;}
+    .content-slider-atasi ul li, .transmisi-content ul li{margin: 0;}
 }
 
 @media only screen and (max-width:650px){
     .box, .box-slider {max-width: 100%;background-color: rgb(255,255,255,0.8);}
     html{overflow-x: hidden;}
-    h1 {font-size: 60px;}
+    h1 {font-size: 40px;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 20px;}
     .section-1 .covid-virus .virus {width: 300px;}
     .box-1,.box-2,.box-3,.box-4,.box-5{left: 10px;right: 10px;}
     .box-1{top: 0;}
-    .box-2{top: 16vh;}
-    .box-3{top: 32vh;bottom: unset;}
-    .box-4{top: 48vh;bottom: unset;}
-    .box-5{top: 64vh;bottom: unset;}
+    .box-2{top: 99px;}
+    .box-3{top:235px}
+    .box-4{top:372px}
+    .box-3{bottom: unset;}
+    .box-4{bottom: unset;}
     .human-covid{margin: 1em;}
     .human-covid li {margin: 0 auto;}
     .human-covid li img{width: 100px;}
@@ -175,11 +185,20 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
 
     .count-covid{grid-template-areas:'main';padding: 20pt;}
     .container p {padding: 0 40px;}
+    .container p.source {bottom: -15px;}
     .legends li {display: inline;}
+    .content-slider-atasi ul, .transmisi-content ul.atasi{
+        flex-direction: column;padding: 0;
+    }
+    .map-container{padding: 0;}
 }
 
 @media only screen and (max-width:380px){
-    h1 {font-size: 50px;}
+    h1 {font-size: 30px;}
+    .box{font-size: 12px;}
+    .box-2{top: 70px;}
+    .box-3{top:185px}
+    .box-4{top:285px}
     .menu-covid li {display: list-item;margin: 2em auto;text-align: center;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 25px;}
     .single-content p {font-weight: unset;font-size: unset;}
@@ -188,11 +207,11 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
 
 @media only screen and (max-width:320px){
     h1 {font-size: 45px;}
-    .box-1,.box-2,.box-3,.box-4,.box-5{left: 0.5px;right: 0.5px;}
+    .box-1,.box-2,.box-3,.box-4,.box-5{left: 0;right: 0;}
     .human-covid {margin: 0 1em;}
     .human-covid li img{width: 80px;}
     .human-covid li span{font-size: 20px;}
-    .box-slider {padding: 5pt 15pt;border-radius: 20px;}
+    .box-slider {padding: 5pt 15pt;border-radius: 20px;font-size: 12px;}
 }
 
 @-webkit-keyframes back-top{0%{-webkit-transform:rotate(135deg) translate(0, 0);opacity:0}50%{opacity:1}100%{-webkit-transform:rotate(135deg) translate(-20px, 20px);opacity:0}}@keyframes back-top{0%{-webkit-transform:rotate(135deg) translate(0, 0);transform:rotate(135deg) translate(0, 0);opacity:0}50%{opacity:1}100%{-webkit-transform:rotate(135deg) translate(-20px, 20px);transform:rotate(135deg) translate(-20px, 20px);opacity:0}}
