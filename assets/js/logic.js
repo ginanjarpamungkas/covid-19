@@ -17,14 +17,12 @@ $(document).on('input','.slider-covid',function() {
     }
 })
 
-$('.covid').on('click',function() {
+$('#kenali').on('click',function() {
     $('body').attr('class','')
     var url = $(this).attr('href')
     $('.main').attr('class','bounceOut main')
-    $('.main').hide()
     setTimeout(function(){ $('.main').hide()}, 750);
-    setTimeout(function(){ $(url).attr('class','slideInUp')}, 760);
-    setTimeout(function(){ $('footer').show()}, 1400);
+    setTimeout(function(){ $(url).attr('class','slideInUp')}, 720);
 })
 
 $('#start').on('click',function() {

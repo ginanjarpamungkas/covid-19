@@ -1,178 +1,178 @@
-id,nama,lokasi,phone,lat,long
-11,"RSUD Dr Zainoel Abidin, Banda Aceh.",Aceh,0651 -34562,5.563718,95.3353989
-11,"RSUD Cut Meutia, Lhokseumawe, Kabupaten Aceh Utara.",Aceh,0645-46334,5.1237098,97.1543466
-12,"RSUP H Adam Malik, Medan.",Sumatera Utara,(061) 8360051,3.5182764,98.6059271
-12,RSUD Kota Padang Sidempuan.,Sumatera Utara,(0634) 21780,1.3840407,99.25245
-12,RSUD Kabanjahe,Sumatera Utara,(0628) 20012,3.0979584,98.4894196
-12,"RSUD Tarutung, Tapanuli Utara.",Sumatera Utara,(0633) 21303,2.0268437,98.9585211
-12,"RSUD Dr Djasamen Saragih, Pematang Siantar.",Sumatera Utara,(0622) 22959,2.9581872,99.0675496
-12,"RSUP dr M Djamil, Padang.",Sumatera Barat,(0751) 32371,2.9581872,99.0675496
-12,"RSUD Dr Achmad Mochtar, Bukittinggi.",Sumatera Barat,(0752) 2172,-0.2997207,100.3639312
-14,"RSUD Arifin Achmad, Pekanbaru.",Riau,(0761) 23418,0.5232482,101.4500354
-14,"RSUD Puri Husada, Tembilahan.",Riau,(0768) 24563,-0.322955,103.1609693
-14,RSUD Kota Dumai,Riau,(0765) 440992,1.6800294,101.4569559
-21,"RSUD Embung Fatimah, Batu Aji, Kota Batam.",Kepulauan Riau,(0778) 364446,1.0499007,103.9653936
-21,"RSBP Batam, Sekupang, Batam.",Kepulauan Riau,(0778) 322046,1.1296416,103.9299977
-21,"RSUD Provinsi Kepulauan Riau, Tanjungpinang.",Kepulauan Riau,(0771) 7335203,0.9235455,104.4980897
-21,"RSUD Muhammad Sani, Tanjung Balai Karimun, Kabupatan Karimun.",Kepulauan Riau,(0777) 327808,1.0135714,103.4115396
-19,"RSUD Dr H Marsidi Judono, Tanjungpandang, Kabupaten Belitung.",Kepulauan Bangka Belitung,(0719) 22190,-2.7489965,107.6760705
-19,"RSUD Depati Hamzah, Pangkal Pinang.",Kepulauan Bangka Belitung,(0717) 438660,-2.1439872,106.1223695
-16,"RSUP Dr Mohammad Hoesin, Palembang.",Sumatera Selatan,(0711) 354088,-2.9661197,104.7480356
-16,"RS Dr Rivai Abdullah, Kabupaten Banyuasin.",Sumatera Selatan,(0711) 7537201,-2.9800053,104.861187
-16,"RSUD Kayuagung, Ogan Komering Ilir.",Sumatera Selatan,(0712) 323889,-3.4075995,104.8234465
-16,RSUD Lahat.,Sumatera Selatan,(0731) 323080,-3.7930086,103.532385
-16,"RSUD Siti Fatimah, Palembang.",Sumatera Selatan,(0711) 5178883,-2.9491184,104.732268
-17,"RSUD Dr M Yunus, Bengkulu.",Bengkulu,(0736) 52004,-3.8342754,102.3117854
-17,"RSUD Hasanuddin Damrah Manna, Kabupaten Bengkulu Selatan.",Bengkulu,(+62)85381637684,-4.441954,102.8942945
-17,"RSUD Arga Makmur, Kabupaten Bengkulu Utara.",Bengkulu,(0737) 521118,-3.4423457,102.1889651
-15,"RSUD Raden Mattaher, Kota Jambi.",Jambi,(0741) 61692,-1.6034648,103.5778473
-18,"RSUD Dr H Abdul Moeloek, Bandar Lampung.",Lampung,(0721) 703312,-5.402805,105.2564722
-18,"RSUD Dr H Bob Bazar SKM, Kabupaten Lampung Selatan.",Lampung,(0727) 322159,-5.7275525,105.5942715
-18,"RSD May Jend HM Ryacudu, Kotabumi",Lampung,(0724) 22095,-4.8326628,104.8891883
-18,"RSUD Jend Ahmad Yani, Kota Metro.",Lampung,(0725) 41820,-5.1157183,105.3079348
-36,"RSU Kabupaten Tangerang, Kota Tangerang.",Banten,(021) 5523507,-6.169779,106.6334226
-36,"RSUD Dr Drajat Prawiranegara, Kota Serang.",Banten,-,-6.1198962,106.1504341
-32,"RSUP Dr Hasan Sadikin, Kota Bandung.",Jawa Barat,(022) 203495355,-6.8980969,107.5959504
-32,"RS Paru Dr H A Rotinsulu, Kota Bandung.",Jawa Barat,(022) 3034446,-6.8788433,107.6038509
-32,"RS Paru Dr M Goenawan Partowidigdo, Cisarua, Bogor.",Jawa Barat,(0251) 8253630,-6.6877462,106.9367471
-32,"RSUD R Syamsudin SH, Kota Sukabumi",Jawa Barat,(0266) 225180,-6.9156923,106.9321671
-32,RSUD Kabupaten Indramayu,Jawa Barat,(0234) 272655,-6.3300805,108.0290017
-32,RSUD Dr Slamet Garut,Jawa Barat,(0262) 237791,-7.2200481,107.8948313
-32,RSD Gunung Jati Kota Cirebon,Jawa Barat,(0231)202441,-6.7308392,108.553221
-32,"RS TK II 03.05.01 Dustira, Kota Cimahi.",Jawa Barat,(022) 2034446,-6.8852876,107.5324307
-32,RSUD Subang,Jawa Barat,(0260) 411421,-6.5581419,107.7448665
-31,"RSPI Sulianti Saroso, Sunter, Jakarta Utara.",DKI Jakarta,(021) 6506559,-6.1295955,106.8601146
-31,"RSPAD Gatot Soebroto, Jakarta Pusat.",DKI Jakarta,(021) 3440693,-6.1766263,106.8348727
-31,"RSUD Cengkareng, Cengkareng, Jakarta Barat.",DKI Jakarta,(021) 54372874,-6.1435827,106.7335031
-31,"RS Umum Bhayangkara Tk 1 R Said Sukanto (RS Polri), Jakarta Timur.",DKI Jakarta,(021) 8093288,-6.2695482,106.8685198
-31,"RSUP Persahabatan, Jakarta Timur.",DKI Jakarta,(021) 4891708,-6.2027574,106.8826738
-31,"RSAL Mintoharjo, Jakarta Pusat. ",DKI Jakarta,(021) 5703081,-6.2108773,106.8093168
-31,"RSUD Pasar Minggu, Jakarta Selatan.",DKI Jakarta,(021) 29059999,-6.2944959,106.8177425
-31,"RSUP Fatmawati, Jakarta Selatan.",DKI Jakarta,(021) 7501524,-6.2951885,106.7939469
-33,"RSUP dr Kariadi, Semarang.",Jawa Tengah,(024) 8413476,-6.9942065,110.405301
-33,"RSUD KRMT Wongsonegoro, Kota Semarang.",Jawa Tengah,(024) 6711500,-7.0339507,110.4646003
-33,"RSU Columbia Asia, Semarang.",Jawa Tengah,(024) 7629999,-6.9843027,110.3807143
-33,"RSU Sultan Agung, Semarang.",Jawa Tengah,(024) 6580019,-6.9554966,110.4591457
-33,"RSU St Elizabeth, Semarang.",Jawa Tengah,(024) 8310035,-7.0061351,110.4169807
-33,"RSU Telogorejo, Semarang.",Jawa Tengah,(024) 86466000,-6.9880487,110.4244253
-33,"RSU Tk III Bhakti Wira Tamtama, Kota Semarang.",Jawa Tengah,(024) 3555944,-6.986833,110.4062431
-33,"RSUD Tugurejo, Semarang.",Jawa Tengah,(024) 7605297,-6.9844185,110.3542328
-33,"RSUP dr Soeradji Tirtonegoro, Klaten.",Jawa Tengah,(0272) 321041,-7.7143799,110.5864769
-33,"RSUD Kraton Kabupaten, Pekalongan.",Jawa Tengah,(0285) 421621,-6.8814082,109.6653463
-33,"RSUD Dr H RM Soeselo, Slawi, Kabupaten Tegal.",Jawa Tengah,(0283) 491016,-6.9935091,109.1355191
-33,"RSUD Dr H Soewondo, Kendal.",Jawa Tengah,(0294) 381433,-6.9178287,110.2040305
-33,"RSUD Prof Dr Margono, Banyumas.",Jawa Tengah,(0281) 632708,-7.4366567,109.2652207
-33,"RSUD Tidar Kota, Magelang.",Jawa Tengah,(0293) 362260,-7.4855282,110.2160706
-33,"RSUD Dr Moewardi, Solo.",Jawa Tengah,(0271) 634634,-7.5581697,110.8394868
-33,"RS Paru Dr Ario Wirawan, Salatiga.",Jawa Tengah,(0298) 326130,-7.3489354,110.4872623
-33,RSUD Banyumas.,Jawa Tengah,(0281) 796182,-7.5291494,109.2905
-33,"RSUD Dr Loekmonohadi, Kudus.",Jawa Tengah,(0291) 431831,-6.8186726,110.8345056
-33,"RSUD Kardinah, Tegal.",Jawa Tengah,(0283) 350377,-6.8847932,109.1329863
-33,RSUD Salatiga.,Jawa Tengah,(0298) 324074,-7.329327,110.4824961
-33,"RSU Tk IV 04.07.03 dr Asmir, Salatiga",Jawa Tengah,(0298) 326045,-7.3312403,110.5083719
-33,RSUD Ambarawa,Jawa Tengah,(0298) 591020,-7.2677979,110.4060831
-33,"RSUD Sunan Kalijaga, Demak.",Jawa Tengah,(0291) 685018,-6.8989466,110.6317094
-33,"RSUD dr R Soedjati, Grobogan.",Jawa Tengah,(0292) 421004,-7.0847476,110.9179776
-33,"RSU Bhayangkara, Semarang.",Jawa Tengah,(024) 6720675,-7.0004522,110.4441185
-33,"RSU Tk II dr Seodjono, Magelang.",Jawa Tengah,(0293) 363061,-7.4678094,110.2238912
-33,"RSUD RAA Soewondo, Pati.",Jawa Tengah,(0295) 381102,-6.7387037,111.0410043
-33,"RSUD RA Kartini, Jepara.",Jawa Tengah,(0291) 591175,-6.6062537,110.6794054
-33,"RSUD dr R Soetrasno, Rembang.",Jawa Tengah,(0295) 691444,-6.7089339,111.356008
-33,"RSUD dr R Soetijono, Blora.",Jawa Tengah,(0296) 531118,-6.9671116,111.4182324
-33,"RSU Mardi Rahayu, Kudus.",Jawa Tengah,(0291) 438234,-6.830099,110.8290833
-33,"RSUD Bendan, Kota Pekalongan.",Jawa Tengah,(0285) 437222,-6.8915427,109.6592803
-33,"RSUD Kajen, Kabupaten Pekalongan.",Jawa Tengah,(0285) 385231,-7.0310299,109.6151839
-33,RSUD Batang.,Jawa Tengah,(0285) 4493034,-6.914604,109.7164554
-33,"RSUD Dr M Ashari, Pemalang.",Jawa Tengah,(0284) 321614,-6.9106352,109.3801396
-33,RSUD Brebes.,Jawa Tengah,(0283) 671431,-6.874948,109.0471762
-33,"RSU Islam Harapan Anda, Kota Tegal.",Jawa Tengah,(0283) 358244,-7.0310299,109.6151839
-33,RSUD Cilacap,Jawa Tengah,(0282) 533010,-7.7172811,109.0131146
-33,"RSUD Hj Anna Lasmanah, Banjarnegara.",Jawa Tengah,(0286) 591464,-7.3928861,109.6906363
-33,"RSUD dr R Goeteng Taroenadibrata, Purbalingga.",Jawa Tengah,(0281) 891016,-7.3785884,109.3593854
-33,"RSUD Setjonegoro, Wonosobo.",Jawa Tengah,(0286) 321091,-7.3635045,109.8962986
-33,"RSUD dr Soedirman, Kabupaten Kebumen.",Jawa Tengah,(0287) 381101,-7.7007222,109.6625518
-33,"RSU Tk III Wijayakusuma, Purwokerto.",Jawa Tengah,(0281) 633062,0.1244922,111.7760418
-33,RSUD Kota Surakarta.,Jawa Tengah,(0271) 715300,-7.5257538,110.8109174
-33,"RSUD Ir Soekarno, Sukoharjo.",Jawa Tengah,(0271) 593118,-7.6834072,110.8477229
-33,"RSUD Pandan Arang, Boyolali.",Jawa Tengah,(0276) 321065,-7.5329466,110.5885355
-33,"RSUD Bagas Waras, Klaten.",Jawa Tengah,(0272) 3359666,-7.7279916,110.6034381
-33,"RSUD Soehadi Prijonegoro, Sragen.",Jawa Tengah,(0271) 891068,-7.4187173,111.0361918
-33,RSUD Karanganyar.,Jawa Tengah,(0271) 495673,-7.5910704,110.9472624
-33,"RSUD Dr Soediran MS, Wonogiri.",Jawa Tengah,(0273) 321008,-7.8048137,110.9137033
-33,"RSU PKU Muhammadiyah, Surakarta.",Jawa Tengah,(0271) 714578,-7.5650218,110.8145044
-33,"RSU Islam, Klaten.",Jawa Tengah,(0272) 322252,-7.6857227,110.632176
-33,"RS Kasih Ibu, Surakarta.",Jawa Tengah,(0271) 714422,-7.5629684,110.7995736
-33,"RS dr Oen, Surakarta.",Jawa Tengah,(0271) 643139,-7.5554557,110.8358398
-33,"RSU Tk IV Slamet Riyadi, Surakarta.",Jawa Tengah,(0271) 714656,-7.5658532,110.8030469
-33,"RSUD Djojonegoro, Temanggung.",Jawa Tengah,(0293) 491119,-7.3118647,110.1758065
-33,"RSUD Dr Tjitrowardojo, Purworejo.",Jawa Tengah,(0275) 321118,-7.7188613,109.9784391
-33,"RSUD Muntilan, Kabupaten Magelang.",Jawa Tengah,(0293) 587004,-7.5829773,110.288864
-34,RSUD Kota Yogyakarta.,Daerah Istimewa Yogyakarta,(0274) 371195,-7.8015958,110.3560703
-34,"RSUP dr Sardjito, Sleman.",Daerah Istimewa Yogyakarta,(0274) 631190,-7.768611,110.3712855
-34,"RSUD Panembahan Senopati, Bantul.",Daerah Istimewa Yogyakarta,(0274) 367381,-7.8928224,110.3359187
-34,RSUD Wates,Daerah Istimewa Yogyakarta,(0274) 773169,-7.8588287,110.1457591
-35,"RSUD Dr Soebandi, Kabupaten Jember.",Jawa Timur,(0331) 487441,-8.151727,113.7128322
-35,RSUD Kabupaten Kediri,Jawa Timur,(0354) 391718,-7.7597672,112.1738997
-35,"RSUD Dr Soetomo, Surabaya.",Jawa Timur,(031) 5501001,-7.2680171,112.7563105
-35,"RSUD Dr Soedono, Madiun.",Jawa Timur,(0351) 464325,-7.626303,111.5218121
-35,"RSUD Dr Saiful Anwar, Malang.",Jawa Timur,(0341) 362101,-7.626303,111.5218121
-35,"RSUD dr R Koesma, Kabupaten Tuban.",Jawa Timur,(0356) 321010,-6.8987533,112.0443305
-35,"RSUD Blambangan, Banyuwangi.",Jawa Timur,(0333) 421118,-8.2083601,114.363804
-35,"RSUD Dr R Sosodoro Djatikoesoemo, Bojonegoro.",Jawa Timur,(0353) 3412133,-7.1609194,111.8980231
-35,"RSUD Dr Iskak, Kabupaten Tulungagung",Jawa Timur,(0355) 322609,-8.0549297,111.9159231
-35,RSUD Sidoarjo,Jawa Timur,(031) 8961649,-7.4654393,112.7141822
-35,"RS Universitas Airlangga Kampus C Universitas Airlangga, Mulyorejo, Surabaya.",Jawa Timur,(031) 5916290,-7.2688774,112.7830745
-65,"RSUD Tanjung Selor, Kabupaten Bulungan.",Kalimantan Utara,(0552) 21118,2.8303146,117.3788395
-65,"RSUD Tarakan, Tarakan Tengah, Kota Tarakan.",Kalimantan Utara,(0551) 21166,3.3115386,117.5915553
-62,"RSUD Dr Doris Sylvanus, Palangkaraya.",Kalimantan Tengah,(0536) 3224695,-2.2105316,113.9202954
-62,"RSUD Dr Murjani, Sampit.",Kalimantan Tengah,(0531) 21010,-2.5427309,112.9472538
-62,"RSUD Sultan Imanuddin, Pangkalan Bun.",Kalimantan Tengah,(0532) 21404,-2.6918916,111.6302
-63,RSUD Ulin Banjarmasin.,Kalimantan Selatan,(0511) 3252180,-3.3228357,114.5989962
-63,"RSUD H Boejasin Pelaihari, Angsau, Kabupaten Tanah Laut.",Kalimantan Selatan,(0512) 21083,-3.8136975,114.7646358
-64,"RSUD Abdul Wahab Sjahranie, Samarinda.",Kalimantan Timur,(0541) 738118,-0.4790047,117.1420767
-64,"RSUD Dr Kanujoso Djatiwibowo, Balikpapan.",Kalimantan Timur,(0542) 873901,-1.225499,116.8659788
-64,"RSUD Panglima Sebaya, Kabupaten Paser.",Kalimantan Timur,(0543) 24563,-1.8734653,116.1764864
-64,"RSU Taman Husada, Bontang.",Kalimantan Timur,(0548) 22111,0.142618,117.4456208
-61,"RSUD Dr Soedarso, Pontianak.",Kalimantan Barat,(0561) 737701,-0.0615716,109.3624383
-61,"RSUD Dr Abdul Azis, Singkawang.",Kalimantan Barat,(0562) 631798,0.8954038,108.9704965
-61,"RSUD Ade Mohammad Djoen, Sintang.",Kalimantan Barat,(0565) 21002,0.0755273,111.5011923
-61,"RSUD Dr Agoesdjam, Ketapang.",Kalimantan Barat,(0534) 3037239,-1.8327195,109.9652872
-75,RSUD Prof Dr H Aloei Saboe,Gorontalo,(+62)8124315555,0.5560345,123.0816118
-72,RSUD Undata Palu.,Sulawesi Tengah,(0451) 4908020,-0.8788256,119.8492446
-72,"RSUD Kabupaten Banggai Luwuk, Luwuk.",Sulawesi Tengah,(0461) 21820,-0.9463197,122.7974952
-72,"RSU Mokopido Toli-Toli, Kabupaten Toli-Toli.",Sulawesi Tengah,(0453) 21301,1.0358848,120.8205882
-72,"RSUD Kolonedale, Kolonedale.",Sulawesi Tengah,(0465) 21010,-1.9834077,121.3239877
-72,RSU Anutapura Palu,Sulawesi Tengah,(0451) 460570,-0.8998877,119.8472732
-71,"RSUP Prof Dr R D Kandou, Manado.",Sulawesi Utara,(0431) 8383058,1.4535364,124.8059889
-71,RSUD Kota Kotamobagu,Sulawesi Utara,(0434) 822816,0.7081921,124.3050919
-71,"RSU Ratatotok, Buyat.",Sulawesi Utara,(0431) 3177610,0.8694034,124.6975245
-71,"RSUD Dr Sam Ratulangi, Luaan, Tondano Timur.",Sulawesi Utara,(0431) 321171,1.3095684,124.9143731
-76,"RSUD Provinsi Sulawesi Barat, Mamuju.",Sulawesi Barat,(0426) 2703260,-2.6874185,118.8670271
-73,"RSUP dr Wahidin Sudirohusodo, Makassar.",Sulawesi Selatan,(0411) 584677,-5.1348171,119.4913605
-73,"RS Dr Tadjuddin Chalid, MPH, Makassar",Sulawesi Selatan,(0411) 512902,-5.1110752,119.514546
-73,"RSUD Labuang Baji, Makassar.",Sulawesi Selatan,(0411) 872120,-5.1625704,119.4160676
-73,"RS Tk II Pelamonia, Makassar.",Sulawesi Selatan,(0411) 7402332,-5.1381599,119.4126774
-73,"RSU Lakipadada Toraja, Tana Toraja.",Sulawesi Selatan,(0423) 22264,-3.0732794,119.8653971
-73,"RSU Andi Makkasau Parepare, Parepare.",Sulawesi Selatan,(0421) 21823,-4.0347249,119.6312927
-73,RSUD Kabupaten Sinjai,Sulawesi Selatan,(0482) 21132,-5.1283766,120.2468594
-74,"RS Bahtera Mas Provinsi Sulawesi Tenggara, atau RS Kendari.",Sulawesi Tenggara,(0401-3195611),-4.0334681,122.4902072
-51,"RSUP Sanglah, Denpasar.",Bali,(0361) 227911-15,-8.6757835,115.2109824
-51,"RSUD Sanjiwani, Gianyar.",Bali,(0361) 943049,-8.5372573,115.3203536
-51,RSU Tabanan,Bali,(0361) 811027,-8.5391479,115.1300213
-51,"RSUD Kabupaten Buleleng, Singaraja.",Bali,(0362) 22046,-8.1206469,115.0827259
-52,"RSUD Provinsi NTB, Bima.",Nusa Tenggara Barat,(0370) 7502424,-8.4863308,118.6711513
-52,RSU Bima,Nusa Tenggara Barat,(0374) 43142,-8.5391479,115.1300213
-52,"RS H L Manambai Abdulkadir, Sumbawa Besar.",Nusa Tenggara Barat,(0371) 2628078,-8.5315783,117.4455123
-52,"RSUD Dr R Soedjono, Selong.",Nusa Tenggara Barat,01-123 2234567,-8.6506132,116.5261823
-53,"RSU Prof Dr WZ Johanes, Kupang.",Nusa Tenggara Timur,(0380) 833614,-10.1698146,123.5844812
-53,"RSUD Dr Tc Hillers Jl Wairklau, Maumere, Kabupaten Sikka.",Nusa Tenggara Timur,(+62)81261153944,-8.6223804,122.2020435
-53,"RSUD Komodo Labuan Bajo, Kabupaten Manggarai Barat.",Nusa Tenggara Timur,(+62)81337055250,-8.5177973,119.8709013
-81,"RSU Dr M. Haulussy, Ambon.",Maluku,(0911) 344871,-8.6506132,116.5261823
-81,"RSUP dr J Leimena, Ambon.",Maluku,-,-3.7085186,128.1633375
-81,"RSUD Dr P P Magretti, Saumlaki, Tanimbar Selatan.",Maluku,(0918) 21113,-7.9742119,131.3059719
-82,"RSUD Dr H Chasan Boesoirie, Ternate.",Maluku Utara,(0921) 3121281,0.7820785,127.3735873
-91,RSU Jayapura,Papua,(0967) 533616,-2.534945,140.7082262
-91,RSU Merauke,Papua,(0971) 32112,-8.4817861,140.3865955
-91,RSU Nabire,Papua,(0984) 21845,-3.3424558,135.5273993
-92,RSUD Manokwari,Papua Barat,(0986) 211440,-0.8708825,134.0765299
-92,RSUD Kabupaten Sorong,Papua Barat,(0951) 321850.,-0.8695863,131.2446338
+id,nama,lokasi,phone,lat,long,alamat
+1,RSUD Dr Zainoel Abidin,Aceh,0651 -34562,5.563718,95.3353989,"Jl. Teuku Moh. Daud Beureueh No.108, Bandar Baru, Kec. Kuta Alam, Kota Banda Aceh"
+2,RSUD Cut Meutia,Aceh,0645-46334,5.1237098,97.1543466,"Jl. Lintas Sumatera Jl. Medan - Banda Aceh, Mesjid Punteut, Blang Mangat, Kota Lhokseumawe, Aceh"
+3,RSUP H Adam Malik,Sumatera Utara,(061) 8360051,3.5182764,98.6059271,"Jl. Bunga Lau No.17, Kemenangan Tani, Kec. Medan Tuntungan, Kota Medan, Sumatera Utara"
+4,RSUD Kota Padang Sidempuan.,Sumatera Utara,(0634) 21780,1.3840407,99.25245,"Jl. Kenanga, Kota Padang Sidempuan."
+5,RSUD Kabanjahe,Sumatera Utara,(0628) 20012,3.0979584,98.4894196,"Jl. Selamat Ketaren No.08, Lau Cimba, Kabanjahe, Kabupaten Karo, Sumatera Utara"
+6,RSUD Tarutung,Sumatera Utara,(0633) 21303,2.0268437,98.9585211,"Jl. Agus Salim No.1, Hutagalung Siwaluompu, Tarutung, Kabupaten Tapanuli Utara, Sumatera Utara"
+7,RSUD Dr Djasamen Saragih,Sumatera Utara,(0622) 22959,2.9581872,99.0675496,"Jl. Sutomo No.230, Simalungun, Kec. Siantar Sel., Kota Pematang Siantar, Sumatera Utara"
+8,RSUP dr M Djamil,Sumatera Barat,(0751) 32371,2.9581872,99.0675496,"Jl. Perintis Kemerdekaan, Sawahan Tim., Kec. Padang Tim., Kota Padang, Sumatera Barat"
+9,RSUD Dr Achmad Mochtar,Sumatera Barat,(0752) 2172,-0.2997207,100.3639312,"Jl. Dr. Abdul Rivai No.1, Bukit Apit Puhun, Kec. Guguk Panjang, Kota Bukittinggi, Sumatera Barat"
+10,RSUD Arifin Achmad,Riau,(0761) 23418,0.5232482,101.4500354,"Jl. Diponegoro No.2, Sumahilang, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau"
+11,RSUD Puri Husada,Riau,(0768) 24563,-0.322955,103.1609693,"Jl. Veteran No.52, Tembilahan Hilir, Tembilahan, Kabupaten Indragiri Hilir, Riau"
+12,RSUD Kota Dumai,Riau,(0765) 440992,1.6800294,101.4569559,"Jl. Tj. Jati No.4, Buluh Kasap, Dumai Tim., Kota Dumai, Riau"
+13,RSUD Embung Fatimah,Kepulauan Riau,(0778) 364446,1.0499007,103.9653936,"Jl. Letjend Suprapto No.1-9, Bukit Tempayan, Kec. Batu Aji, Kota Batam, Kepulauan Riau"
+14,RSBP Batam,Kepulauan Riau,(0778) 322046,1.1296416,103.9299977,"Jl. Cipto Mangunkusumo No.1, Tj. Pinggir, Kec. Sekupang, Kota Batam, Kepulauan Riau"
+15,RSUD Provinsi Kepulauan Riau,Kepulauan Riau,(0771) 7335203,0.9235455,104.4980897,"Jl. WR. Supratman KM.8 No.100, Air Raja, Kec. Tanjungpinang Tim., Kota Tanjung Pinang, Kepulauan Riau"
+16,RSUD Muhammad Sani,Kepulauan Riau,(0777) 327808,1.0135714,103.4115396,"Jalan Poros No.1, Harjosari, Tebing, Kabupaten Karimun, Kepulauan Riau"
+17,RSUD Dr H Marsidi Judono,Kepulauan Bangka Belitung,(0719) 22190,-2.7489965,107.6760705,"Jl. Jend. Sudirman KM.5,5, Aik Rayak, Tj. Pandan, Kabupaten Belitung, Kepulauan Bangka Belitung"
+18,RSUD Depati Hamzah,Kepulauan Bangka Belitung,(0717) 438660,-2.1439872,106.1223695,"Jl. Soekarno Hatta, Bukitbesar, Kec. Girimaya, Kota Pangkal Pinang, Kepulauan Bangka Belitung"
+19,RSUP Dr Mohammad Hoesin,Sumatera Selatan,(0711) 354088,-2.9661197,104.7480356,"RW. 5, Jl. Jend. Sudirman KM.3,5, Sekip Jaya, Kec. Kemuning, Kota Palembang, Sumatera Selatan"
+20,RS Dr Rivai Abdullah,Sumatera Selatan,(0711) 7537201,-2.9800053,104.861187,"Jl. Sungai Kundur, Mariana, Banyuasin I, Kabupaten Banyu Asin, Sumatera Selatan"
+21,RSUD Kayuagung,Sumatera Selatan,(0712) 323889,-3.4075995,104.8234465,"Jl. Letjen Yusuf Singadekane, Jua Jua, Kec. Kayu Agung, Kabupaten Ogan Komering Ilir, Sumatera Selatan"
+22,RSUD Lahat.,Sumatera Selatan,(0731) 323080,-3.7930086,103.532385,"Jl. Letnan Alamsyah, Ps. Baru, Kec. Lahat, Kabupaten Lahat, Sumatera Selatan"
+23,RSUD Siti Fatimah,Sumatera Selatan,(0711) 5178883,-2.9491184,104.732268,"Jl. Kol. H. Burlian, Suka Bangun, Kec. Sukarami, Kota Palembang, Sumatera Selatan"
+24,RSUD Dr M Yunus,Bengkulu,(0736) 52004,-3.8342754,102.3117854,"Jl. Bhayangkara, Sidomulyo, Kec. Gading Cemp., Kota Bengkulu, Bengkulu"
+25,RSUD Hasanuddin Damrah Manna,Bengkulu,(+62)85381637684,-4.441954,102.8942945,"Jl. Raya Padang Panjang, Pagar Dewa, Kota Manna, Kabupaten Bengkulu Selatan, Bengkulu"
+26,RSUD Arga Makmur,Bengkulu,(0737) 521118,-3.4423457,102.1889651,"Jl. Siti Khodijah No.8, Kali, Arma Jaya, Kabupaten Bengkulu Utara, Bengkulu"
+27,RSUD Raden Mattaher,Jambi,(0741) 61692,-1.6034648,103.5778473,"l. Letjen Suprapto No.31, Telanaipura, Kec. Telanaipura, Kota Jambi, Jambi"
+28,RSUD Dr H Abdul Moeloek,Lampung,(0721) 703312,-5.402805,105.2564722,"Jl. Dr. Rivai No.6, Penengahan, Kec. Tj. Karang Pusat, Kota Bandar Lampung, Lampung"
+29,RSUD Dr H Bob Bazar SKM,Lampung,(0727) 322159,-5.7275525,105.5942715,"Jl. Lettu Rohani No.14 B, Kedaton, Kec. Kalianda, Kabupaten Lampung Selatan, Lampung"
+30,RSD May Jend HM Ryacudu,Lampung,(0724) 22095,-4.8326628,104.8891883,"Jl. Jend. Sudirman No.2, Kota Gapura, Kotabumi, Kabupaten Lampung Utara, Lampung"
+31,RSUD Jend Ahmad Yani,Lampung,(0725) 41820,-5.1157183,105.3079348,"Jl. Ahmad Yani No.13, Imopuro, Kec. Metro Pusat, Kota Metro, Lampung"
+32,RSU Kabupaten Tangerang,Banten,(021) 5523507,-6.169779,106.6334226,"Jl. Jend. Ahmad Yani No.9, RT.001/RW.003, Sukaasih, Kec. Tangerang, Kota Tangerang, Banten"
+33,RSUD Dr Drajat Prawiranegara,Banten,-,-6.1198962,106.1504341,"Jl. Rumah Sakit Umum No.1, Kotabaru, Kec. Serang, Kota Serang, Banten "
+34,RSUP Dr Hasan Sadikin,Jawa Barat,(022) 203495355,-6.8980969,107.5959504,"Jl. Pasteur No.38, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat"
+35,RS Paru Dr H A Rotinsulu,Jawa Barat,(022) 3034446,-6.8788433,107.6038509,"Jl. Bukit Jarian No.40, Hegarmanah, Kec. Cidadap, Kota Bandung, Jawa Barat"
+36,RS Paru Dr M Goenawan Partowidigdo,Jawa Barat,(0251) 8253630,-6.6877462,106.9367471,"Jl. Raya Puncak - Cianjur KM.83, Cibeureum, Kec. Cisarua, Bogor, Jawa Barat"
+37,RSUD R Syamsudin SH,Jawa Barat,(0266) 225180,-6.9156923,106.9321671,"Jl. Rumah Sakit No.1, Cikole, Kec. Cikole, Kota Sukabumi, Jawa Barat"
+38,RSUD Kabupaten Indramayu,Jawa Barat,(0234) 272655,-6.3300805,108.0290017,"Jl. Murahnara No.7, Sindang, Kabupaten Indramayu, Jawa Barat"
+39,RSUD Dr Slamet Garut,Jawa Barat,(0262) 237791,-7.2200481,107.8948313,"Jl. Rsu DR. Slamet No.12, Sukakarya, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat"
+40,RSD Gunung Jati Kota Cirebon,Jawa Barat,(0231)202441,-6.7308392,108.553221,"Jl. Kesambi Raya No.56, Drajat, Kesambi, Jl. Kesambi No.56, Kesambi, Kec. Kesambi, Kota Cirebon, Jawa Barat"
+41,RS TK II 03.05.01 Dustira,Jawa Barat,(022) 2034446,-6.8852876,107.5324307,"Jl. Dustira No.1, Baros, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat"
+42,RSUD Subang,Jawa Barat,(0260) 411421,-6.5581419,107.7448665,"Jl. Brigjen Katamso No.37, Dangdeur, Kec. Subang, Kabupaten Subang, Jawa Barat"
+43,RSPI Sulianti Saroso,DKI Jakarta,(021) 6506559,-6.1295955,106.8601146,"Jl. Sunter Permai Raya, RT.2/RW.12, Papanggo, Tj. Priok, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta"
+44,RSPAD Gatot Soebroto,DKI Jakarta,(021) 3440693,-6.1766263,106.8348727,"Jl. Abdul Rahman Saleh Raya No.24, Senen, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta "
+45,RSUD Cengkareng,DKI Jakarta,(021) 54372874,-6.1435827,106.7335031,"Jl. Bumi Cengkareng Indah No.1, RT.13/RW.10, Cengkareng Tim., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta"
+46,RSU Bhayangkara Tk 1 R Said Sukanto (RS Polri),DKI Jakarta,(021) 8093288,-6.2695482,106.8685198,"Jl. Raya Bogor, RT.1/RW.5, Kramat Jati, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta"
+47,RSUP Persahabatan,DKI Jakarta,(021) 4891708,-6.2027574,106.8826738,"Jl. Persahabatan Raya No.1, Pisangan Tim., Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta"
+48,RSAL Mintoharjo,DKI Jakarta,(021) 5703081,-6.2108773,106.8093168,"Jl. Bendungan Hilir No.17, RT.4/RW.3, Bend. Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta"
+49,RSUD Pasar Minggu,DKI Jakarta,(021) 29059999,-6.2944959,106.8177425,"Jl. TB Simatupang No.1, RT.1/RW.5, Ragunan, Kec. Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta"
+50,RSUP Fatmawati,DKI Jakarta,(021) 7501524,-6.2951885,106.7939469,"Jl. RS. Fatmawati Raya, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta"
+51,RSUP dr Kariadi,Jawa Tengah,(024) 8413476,-6.9942065,110.405301,"Jl. DR. Sutomo No.16, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah"
+52,RSUD KRMT Wongsonegoro,Jawa Tengah,(024) 6711500,-7.0339507,110.4646003,"Jl. Fatmawati No.1, Mangunharjo, Kec. Tembalang, Kota Semarang, Jawa Tengah"
+53,RSU Columbia Asia,Jawa Tengah,(024) 7629999,-6.9843027,110.3807143,"Jl. Siliwangi No.143, Kalibanteng Kulon, Kec. Semarang Bar., Kota Semarang, Jawa Tengah"
+54,RSU Sultan Agung,Jawa Tengah,(024) 6580019,-6.9554966,110.4591457,"Jl. Kaligawe Raya No.KM. 4, Terboyo Kulon, Kec. Genuk, Kota Semarang, Jawa Tengah"
+55,RSU St Elizabeth,Jawa Tengah,(024) 8310035,-7.0061351,110.4169807,"Jl. Kawi Raya No.1, Tegalsari, Kec. Candisari, Kota Semarang, Jawa Tengah"
+56,RSU Telogorejo,Jawa Tengah,(024) 86466000,-6.9880487,110.4244253,"Jl. Kh Ahmad Dahlan, Pekunden, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah"
+57,RSU Tk III Bhakti Wira Tamtama,Jawa Tengah,(024) 3555944,-6.986833,110.4062431,"Jl. DR. Sutomo No.17, Barusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah"
+58,RSUD Tugurejo,Jawa Tengah,(024) 7605297,-6.9844185,110.3542328,"Jl. Walisongo No. 137 KM 8.5, Tambakaji, Kec. Ngaliyan, Kota Semarang, Jawa Tengah"
+59,RSUP dr Soeradji Tirtonegoro,Jawa Tengah,(0272) 321041,-7.7143799,110.5864769,"Jl. KRT Pringgodiningrat Jl. Dr. Soeradji Tirtonegoro No.1, Dusun 1, Tegalyoso, Kec. Klaten Sel., Kabupaten Klaten, Jawa Tengah"
+60,RSUD Kraton Kabupaten,Jawa Tengah,(0285) 421621,-6.8814082,109.6653463,"Jl. Veteran No.31, Dukuh, Pekalongan Utara, Kota Pekalongan, Jawa Tengah"
+61,RSUD Dr H RM Soeselo,Jawa Tengah,(0283) 491016,-6.9935091,109.1355191,"Jl. DR. Soetomo No.63, Slawi Kulon, Kec. Slawi, Tegal, Jawa Tengah"
+62,RSUD Dr H Soewondo,Jawa Tengah,(0294) 381433,-6.9178287,110.2040305,"Jl. Laut No.21, Ngilir, Kec. Kendal, Kabupaten Kendal, Jawa Tengah"
+63,RSUD Prof Dr Margono,Jawa Tengah,(0281) 632708,-7.4366567,109.2652207,"Jl. Dr. Gumbreg No.1, Kebontebu, Berkoh, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah"
+64,RSUD Tidar,Jawa Tengah,(0293) 362260,-7.4855282,110.2160706,"Jl. Tidar No.30 A, Kemirirejo, Kec. Magelang Tengah, Kota Magelang, Jawa Tengah"
+65,RSUD Dr Moewardi,Jawa Tengah,(0271) 634634,-7.5581697,110.8394868,"Jl. Kolonel Sutarto No.132, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah"
+66,RS Paru Dr Ario Wirawan,Jawa Tengah,(0298) 326130,-7.3489354,110.4872623,"Jl. Hasanudin No.806, Mangunsari, Kec. Sidomukti, Kota Salatiga, Jawa Tengah"
+67,RSUD Banyumas.,Jawa Tengah,(0281) 796182,-7.5291494,109.2905,"Jl. Rumah Sakit No.1, Karangpucung, Kejawar, Kec. Banyumas, Kabupaten Banyumas, Jawa Tengah"
+68,RSUD Dr Loekmonohadi,Jawa Tengah,(0291) 431831,-6.8186726,110.8345056,"Jl. Dr. Lukmonohadi No.19, Jl. Dr. Lukmono Hadi No.19, Cobowo, Ploso, Kec. Jati, Kabupaten Kudus, Jawa Tengah"
+69,RSUD Kardinah,Jawa Tengah,(0283) 350377,-6.8847932,109.1329863,"Jl. AIP Jl. KS. Tubun No.2, Kejambon, Kec. Tegal Tim., Kota Tegal, Jawa Tengah"
+70,RSUD Salatiga.,Jawa Tengah,(0298) 324074,-7.329327,110.4824961,"Jl. Osamaliki, Sidorejo Lor, Kec. Sidorejo, Kota Salatiga, Jawa Tengah"
+71,RSU Tk IV 04.07.03 dr Asmir,Jawa Tengah,(0298) 326045,-7.3312403,110.5083719,"Jl. DR. Muwardi No.50, Kutowinangun Kidul, Kec. Tingkir, Kota Salatiga, Jawa Tengah"
+72,RSUD Ambarawa,Jawa Tengah,(0298) 591020,-7.2677979,110.4060831,"Jalan R.A. Kartini No. 101 Tambakboyo Lodoyong, Losari, Kec. Ambarawa, Semarang, Jawa Tengah"
+73,RSUD Sunan Kalijaga,Jawa Tengah,(0291) 685018,-6.8989466,110.6317094,"Jl. Sultan Fatah 669/50, Bintoro, Kecamatan Demak, Bogorame, Bintoro, Kec. Demak, Kabupaten Demak, Jawa Tengah"
+74,RSUD dr R Soedjati,Jawa Tengah,(0292) 421004,-7.0847476,110.9179776,"Jl. D. I. Panjaitan No.36, Ngabean, Purwodadi, Kec. Purwodadi, Kabupaten Grobogan, Jawa Tengah"
+75,RSU Bhayangkara,Jawa Tengah,(024) 6720675,-7.0004522,110.4441185,"Jl. Majapahit No.140, Gayamsari, Kec. Gayamsari, Kota Semarang, Jawa Tengah"
+76,RSU Tk II dr Seodjono,Jawa Tengah,(0293) 363061,-7.4678094,110.2238912,"Jl. Jend. Urip Sumoharjo No.48, Wates, Kec. Magelang Utara, Kota Magelang, Jawa Tengah"
+77,RSUD RAA Soewondo,Jawa Tengah,(0295) 381102,-6.7387037,111.0410043,"Jl. Dr. Susanto No.114, Ngipik, Kutoharjo, Kec. Pati, Kabupaten Pati, Jawa Tengah"
+78,RSUD RA Kartini,Jawa Tengah,(0291) 591175,-6.6062537,110.6794054,"Jl. Wahid Hasyim No.175, Rw. V, Bapangan, Kec. Jepara, Kabupaten Jepara, Jawa Tengah"
+79,RSUD dr R Soetrasno,Jawa Tengah,(0295) 691444,-6.7089339,111.356008,"Jl. Pahlawan No.16, Kabongan Kidul, Kec. Rembang, Kabupaten Rembang, Jawa Tengah"
+80,RSUD dr R Soetijono,Jawa Tengah,(0296) 531118,-6.9671116,111.4182324,"Jl. Dr. Sutomo No.42, Blora, Tempelan, Kec. Blora, Kabupaten Blora, Jawa Tengah"
+81,RSU Mardi Rahayu,Jawa Tengah,(0291) 438234,-6.830099,110.8290833,"Jl. AKBP Agil Kusumadya No.110, Jatirejo, Jati Wetan, Kec. Jati, Kabupaten Kudus, Jawa Tengah"
+82,RSUD Bendan,Jawa Tengah,(0285) 437222,-6.8915427,109.6592803,"Jl. Sriwijaya No.2, Bendan, Kec. Pekalongan Bar., Kota Pekalongan, Jawa Tengah"
+83,RSUD Kajen,Jawa Tengah,(0285) 385231,-7.0310299,109.6151839,"Jl. Raya Karanganyar No.36, Mlatensatu, Karangsari, Kec. Karanganyar, Pekalongan, Jawa Tengah"
+84,RSUD Batang.,Jawa Tengah,(0285) 4493034,-6.914604,109.7164554,"Jl. Dr.Sutomo No.42, Kauman, Kec. Batang, Kabupaten Batang, Jawa Tengah"
+85,RSUD Dr M Ashari,Jawa Tengah,(0284) 321614,-6.9106352,109.3801396,"Jl. Gatot Subroto No.41, Bojongbata, Kec. Pemalang, Kabupaten Pemalang, Jawa Tengah"
+86,RSUD Brebes.,Jawa Tengah,(0283) 671431,-6.874948,109.0471762,"Jl. Jenderal Sudirman No.181, Pangembon, Brebes, Kec. Brebes, Kabupaten Brebes, Jawa Tengah"
+87,RSU Islam Harapan Anda,Jawa Tengah,(0283) 358244,-7.0310299,109.6151839,"Jl. Ababil No.42, Randugunting, Kec. Tegal Sel., Kota Tegal, Jawa Tengah"
+88,RSUD Cilacap,Jawa Tengah,(0282) 533010,-7.7172811,109.0131146,"Jl. Gatot Subroto No.28, Tambaksari, Sidanegara, Kec. Cilacap Tengah, Kabupaten Cilacap, Jawa Tengah"
+89,RSUD Hj Anna Lasmanah,Jawa Tengah,(0286) 591464,-7.3928861,109.6906363,"Jl. Jend. Sudirman No.42, Kutabanjarnegara, Kec. Banjarnegara, Banjarnegara, Jawa Tengah"
+90,RSUD dr R Goeteng Taroenadibrata,Jawa Tengah,(0281) 891016,-7.3785884,109.3593854,"Jl. Tentara Pelajar No.23, Kembaran Kulon, Kec. Purbalingga, Kabupaten Purbalingga, Jawa Tengah"
+91,RSUD Setjonegoro,Jawa Tengah,(0286) 321091,-7.3635045,109.8962986,"Jl. Rumah Sakit No.1, Stasiun, Wonosobo Bar., Kec. Wonosobo, Kabupaten Wonosobo, Jawa Tengah"
+92,RSUD dr Soedirman,Jawa Tengah,(0287) 381101,-7.7007222,109.6625518,"Jalan Lingkar Selatan, Muktisari, Kebumen, Kecamatan Kebumen, Jl. Raya Alternatif Luar Kota Kebumen, Kenteng, Muktisari, Kec. Kebumen, Kabupaten Kebumen, Jawa Tengah"
+93,RSU Tk III Wijayakusuma,Jawa Tengah,(0281) 633062,0.1244922,111.7760418,"Jl. Prof Dr. HR Bunyamin, Glempang, Bancarkembar, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah"
+94,RSUD Kota Surakarta.,Jawa Tengah,(0271) 715300,-7.5257538,110.8109174,"Jl. Lettu Sumarto No.01, Kedungupit, Kadipiro, Kec. Banjarsari, Kabupaten Boyolali, Jawa Tengah"
+95,RSUD Ir Soekarno,Jawa Tengah,(0271) 593118,-7.6834072,110.8477229,"Jalan Dokter Muwardi No.71, Bulusari, Gayam, Kec. Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah "
+96,RSUD Pandan Arang,Jawa Tengah,(0276) 321065,-7.5329466,110.5885355,"Jalan Kantil No.14, Pulisen, Boyolali, Lorjurang, Pulisen, Kec. Boyolali, Kabupaten Boyolali, Jawa Tengah"
+97,RSUD Bagas Waras,Jawa Tengah,(0272) 3359666,-7.7279916,110.6034381,"Jalan Ir. Soekarno No.KM.2, Buntalan, Kec. Klaten Tengah, Kabupaten Klaten, Jawa Tengah "
+98,RSUD Soehadi Prijonegoro,Jawa Tengah,(0271) 891068,-7.4187173,111.0361918,"Jl. Sukowati No.534, Ngrandu, Nglorog, Kec. Sragen, Kabupaten Sragen, Jawa Tengah"
+99,RSUD Karanganyar.,Jawa Tengah,(0271) 495673,-7.5910704,110.9472624,"Jalan Laksda Jl. Yos Sudarso, Jengglong, Bejen, Kec. Karanganyar, Kabupaten Karanganyar, Jawa Tengah"
+100,RSUD Dr Soediran MS,Jawa Tengah,(0273) 321008,-7.8048137,110.9137033,"Jl. Jenderal Ahmad Yani No.40, Joho Lor, Giriwono, Kec. Wonogiri, Kabupaten Wonogiri, Jawa Tengah"
+101,RSU PKU Muhammadiyah,Jawa Tengah,(0271) 714578,-7.5650218,110.8145044," Jl. Ronggowarsito No.130, Timuran, Kec. Banjarsari, Kota Surakarta, Jawa Tengah"
+102,"RSU Islam, Klaten.",Jawa Tengah,(0272) 322252,-7.6857227,110.632176,"Jl. Klaten - Solo No.KM.4, Sidorejo, Belang Wetan, Kec. Klaten Utara, Kabupaten Klaten, Jawa Tengah"
+103,RS Kasih Ibu,Jawa Tengah,(0271) 714422,-7.5629684,110.7995736,"Jl. Slamet Riyadi No.404, Purwosari, Kec. Laweyan, Kota Surakarta, Jawa Tengah "
+104,RS dr Oen,Jawa Tengah,(0271) 643139,-7.5554557,110.8358398,"Jl. Brigjen Katamso No.55, Tegalharjo, Kec. Jebres, Kota Surakarta, Jawa Tengah"
+105,RSU Tk IV Slamet Riyadi,Jawa Tengah,(0271) 714656,-7.5658532,110.8030469,"Jl. Slamet Riyadi No No.321Kvi, Purwosari, Kec. Laweyan, Kota Surakarta, Jawa Tengah"
+106,RSUD Djojonegoro,Jawa Tengah,(0293) 491119,-7.3118647,110.1758065,"Jl. Gajah Mada No.1A, Sendang, Walitelon Sel., Kec. Temanggung, Kabupaten Temanggung, Jawa Tengah"
+107,RSUD Dr Tjitrowardojo,Jawa Tengah,(0275) 321118,-7.7188613,109.9784391,Jln.Jendral Sudirman 60 Purworejo Jawa Tengah
+108,RSUD Muntilan,Jawa Tengah,(0293) 587004,-7.5829773,110.288864,"Jl. Kartini No.13, Balemulyo, Muntilan, Kec. Muntilan, Magelang, Jawa Tengah"
+109,RSUD Kota Yogyakarta.,Daerah Istimewa Yogyakarta,(0274) 371195,-7.8015958,110.3560703,"Jl. Ki Ageng Pemanahan No.1, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta"
+110,RSUP dr Sardjito,Daerah Istimewa Yogyakarta,(0274) 631190,-7.768611,110.3712855,"Jl. Kesehatan No.1, Senolowo, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta "
+111,RSUD Panembahan Senopati,Daerah Istimewa Yogyakarta,(0274) 367381,-7.8928224,110.3359187,"Jl. Dr. Wahidin Sudiro Husodo, Area Sawah, Trirenggo, Kec. Bantul, Bantul, Daerah Istimewa Yogyakarta"
+112,RSUD Wates,Daerah Istimewa Yogyakarta,(0274) 773169,-7.8588287,110.1457591,"Jalan Tentara Pelajar KM. 1 No. 5, Jl. Tentara Pelajar No.5, Area Sawah, Beji, Wates, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta"
+113,RSUD Dr Soebandi,Jawa Timur,(0331) 487441,-8.151727,113.7128322,"Jl. DR. Soebandi No.124, Cangkring, Patrang, Kec. Patrang, Kabupaten Jember, Jawa Timur"
+114,RSUD Kabupaten Kediri,Jawa Timur,(0354) 391718,-7.7597672,112.1738997,"Jl. Pahlawan Kusuma Bangsa No.1, Cangkring, Pelem, Pare, Kediri,Jawa Timur"
+115,RSUD Dr Soetomo,Jawa Timur,(031) 5501001,-7.2680171,112.7563105,"Jl. Mayjen Prof. Dr. Moestopo No.6-8, Airlangga, Kec. Gubeng, Kota SBY, Jawa Timur"
+116,RSUD Dr Soedono,Jawa Timur,(0351) 464325,-7.626303,111.5218121,"Jl. Dr. Sutomo No.59, Kartoharjo, Kec. Kartoharjo, Kota Madiun, Jawa Timur"
+117,RSUD Dr Saiful Anwar,Jawa Timur,(0341) 362101,-7.626303,111.5218121,"Jl. Jaksa Agung Suprapto No.2, Klojen, Kec. Klojen, Kota Malang, Jawa Timur"
+118,RSUD dr R Koesma,Jawa Timur,(0356) 321010,-6.8987533,112.0443305,"Jl. Dr. Wahidin Sh Gg. Bima No.800, Sidorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur"
+119,RSUD Blambangan,Jawa Timur,(0333) 421118,-8.2083601,114.363804,"Jl. Letkol Istiqlah No.49, Singonegaran, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur"
+120,RSUD Dr R Sosodoro Djatikoesoemo,Jawa Timur,(0353) 3412133,-7.1609194,111.8980231,"Jl. Veteran No.36, Jambean, Sukorejo, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur"
+121,RSUD Dr Iskak,Jawa Timur,(0355) 322609,-8.0549297,111.9159231,"Jl. Dr. Wahidin Sudiro Husodo, Kedung Taman, Kedungwaru, Kec. Kedungwaru, Kabupaten Tulungagung, Jawa Timur"
+122,RSUD Sidoarjo,Jawa Timur,(031) 8961649,-7.4654393,112.7141822,"Jl. Mojopahit No.667, Sidowayah, Celep, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur"
+123,RS Universitas Airlangga Kampus C Universitas Airlangga,Jawa Timur,(031) 5916290,-7.2688774,112.7830745,"Kampus C Unair, Jl. Mulyorejo, Mulyorejo, Kec. Mulyorejo, Kota SBY, Jawa Timur"
+124,RSUD Tanjung Selor,Kalimantan Utara,(0552) 21118,2.8303146,117.3788395,"Jl. Cendrawasih, Tj. Selor Hilir, Tj. Selor, Kabupaten Bulungan, Kalimantan Utara"
+125,RSUD Tarakan,Kalimantan Utara,(0551) 21166,3.3115386,117.5915553,"Jl. Pulau Irian No.1, Kp. Satu Skip, Tarakan Tengah, Kota Tarakan, Kalimantan Utara"
+126,RSUD Dr Doris Sylvanus,Kalimantan Tengah,(0536) 3224695,-2.2105316,113.9202954,"Jl. Tambun Bungai No.04, Langkai, Kec. Pahandut, Kota Palangka Raya, Kalimantan Tengah"
+127,RSUD Dr Murjani,Kalimantan Tengah,(0531) 21010,-2.5427309,112.9472538,"Jl. H.M. Arsyad No.65, Mentawa Baru Hulu, Mentawa Baru/Ketapan, Kabupaten Kotawaringin Timur, Kalimantan Tengah"
+128,RSUD Sultan Imanuddin,Kalimantan Tengah,(0532) 21404,-2.6918916,111.6302,"Jl. Sutan Syahrir No.17, Madurejo, Kec. Arut Sel., Kabupaten Kotawaringin Barat, Kalimantan Tengah"
+129,RSUD Ulin Banjarmasin.,Kalimantan Selatan,(0511) 3252180,-3.3228357,114.5989962,"Jalan A. Yani No. 43, Sungai Baru, Banjarmasin Tengah, Sungai Baru, Kec. Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan"
+130,RSUD H Boejasin Pelaihari,Kalimantan Selatan,(0512) 21083,-3.8136975,114.7646358,"Jl. H. Boejasin No. 68A, Angsau, Pelaihari, Jl. H. Boejasin No.68A, Angsau, Kec. Pelaihari, Kabupaten Tanah Laut, Kalimantan Selatan "
+131,RSUD Abdul Wahab Sjahranie,Kalimantan Timur,(0541) 738118,-0.4790047,117.1420767,"Jl. Palang Merah No.1, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur"
+132,RSUD Dr Kanujoso Djatiwibowo,Kalimantan Timur,(0542) 873901,-1.225499,116.8659788,"Jl. MT Haryono No.656, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur"
+133,RSUD Panglima Sebaya,Kalimantan Timur,(0543) 24563,-1.8734653,116.1764864,"Jl. Kusuma Bangsa No.km 5, Tepian Batang, Tanah Grogot, Kabupaten Paser, Kalimantan Timur"
+134,RSU Taman Husada,Kalimantan Timur,(0548) 22111,0.142618,117.4456208,"Jl. Letjen S. Parman No.1, Belimbing, Bontang Bar., Kota Bontang, Kalimantan Timur"
+135,RSUD Dr Soedarso,Kalimantan Barat,(0561) 737701,-0.0615716,109.3624383,"Jl. DR. Soedarso No.1, Bangka Belitung Laut, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat "
+136,RSUD Dr Abdul Azis,Kalimantan Barat,(0562) 631798,0.8954038,108.9704965,"Jl. Dr. Sutomo No.28, Pasiran, Singkawang Bar., Kota Singkawang, Kalimantan Barat "
+137,RSUD Ade Mohammad Djoen,Kalimantan Barat,(0565) 21002,0.0755273,111.5011923,"Jl. Pattimura No.1, Tj. Puri, Kec. Sintang, Kabupaten Sintang, Kalimantan Barat"
+138,RSUD Dr Agoesdjam,Kalimantan Barat,(0534) 3037239,-1.8327195,109.9652872,"Jl. DI Panjaitan No.51, Sampit, Delta Pawan, Kabupaten Ketapang, Kalimantan Barat"
+139,RSUD Prof Dr H Aloei Saboe,Gorontalo,(+62)8124315555,0.5560345,123.0816118,"Jl. Prof. Dr. Aloe Saboe, Wongkaditi, Kota Utara, Kota Gorontalo, Gorontalo "
+140,RSUD Undata Palu.,Sulawesi Tengah,(0451) 4908020,-0.8788256,119.8492446,"Jalan Trans Sulawesi Tondo, Talise, Mantikulore, Kota Palu, Sulawesi Tengah"
+141,RSUD Kabupaten Banggai Luwuk,Sulawesi Tengah,(0461) 21820,-0.9463197,122.7974952,"Jl. Imam Bonjol No.14, Bungin Tim., Luwuk, Kabupaten Banggai, Sulawesi Tengah"
+142,RSU Mokopido Toli-Toli,Sulawesi Tengah,(0453) 21301,1.0358848,120.8205882,"Jl. Lanoni No.37, Baru, Baolan, Kabupaten Toli-Toli, Sulawesi Tengah"
+143,RSUD Kolonedale,Sulawesi Tengah,(0465) 21010,-1.9834077,121.3239877,"Jalan W Monginsidi No.2, Kolonodale, Petasia, Kabupaten Morowali, Sulawesi Tengah"
+144,RSU Anutapura Palu,Sulawesi Tengah,(0451) 460570,-0.8998877,119.8472732,"Jl. Kangkung No.1, Donggala Kodi, Palu, Kota Palu, Sulawesi Tengah"
+145,RSUP Prof Dr R D Kandou,Sulawesi Utara,(0431) 8383058,1.4535364,124.8059889,"Jl. Raya Tanawangko No.56, Malalayang Satu Barat, Kec. Malalayang, Kota Manado, Sulawesi Utara"
+146,RSUD Kota Kotamobagu,Sulawesi Utara,(0434) 822816,0.7081921,124.3050919,"Pobundayan, Kotamobagu Sel., Kota Kotamobagu, Sulawesi Utara"
+147,"RSU Ratatotok, Buyat.",Sulawesi Utara,(0431) 3177610,0.8694034,124.6975245,"Ratatotok, Kabupaten Minahasa Tenggara, Sulawesi Utara"
+148,RSUD Dr Sam Ratulangi,Sulawesi Utara,(0431) 321171,1.3095684,124.9143731,"Jl. Suprapto No.123, Luaan, Tondano Tim., Kabupaten Minahasa, Sulawesi Utara"
+149,RSUD Provinsi Sulawesi Barat,Sulawesi Barat,(0426) 2703260,-2.6874185,118.8670271," Jl. RE Martadinata, Simboro, Kec. Simboro Dan Kepulauan, Kabupaten Mamuju, Sulawesi Barat "
+150,RSUP dr Wahidin Sudirohusodo,Sulawesi Selatan,(0411) 584677,-5.1348171,119.4913605,"Jl. Perintis Kemerdekaan No.KM, Tamalanrea Jaya, Kec. Tamalanrea, Kota Makassar, Sulawesi Selatan"
+151,RS Dr Tadjuddin Chalid,Sulawesi Selatan,(0411) 512902,-5.1110752,119.514546,"Jl. Paccerakkang No.67, Paccerakkang, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan"
+152,RSUD Labuang Baji,Sulawesi Selatan,(0411) 872120,-5.1625704,119.4160676,"Jl. DR. Ratulangi No.81, Labuang Baji, Kec. Mamajang, Kota Makassar, Sulawesi Selatan"
+153,RS Tk II Pelamonia,Sulawesi Selatan,(0411) 7402332,-5.1381599,119.4126774,"Jl. Jend. Sudirman No.27, Pisang Utara, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan"
+154,RSU Lakipadada Toraja,Sulawesi Selatan,(0423) 22264,-3.0732794,119.8653971,"Tambunan, Makale Utara, Kabupaten Tana Toraja, Sulawesi Selatan"
+155,RSU Andi Makkasau Parepare,Sulawesi Selatan,(0421) 21823,-4.0347249,119.6312927,"Jl. Nurussamawati No.9, Bumi Harapan, Kec. Bacukiki Bar., Kota Pare-Pare, Sulawesi Selatan"
+156,RSUD Kabupaten Sinjai,Sulawesi Selatan,(0482) 21132,-5.1283766,120.2468594,"Jl. Jenderal Sudirman No.47, Biringere, Sinjai Utara, Kabupaten Sinjai, Sulawesi Selatan"
+157,RS Bahtera Mas,Sulawesi Tenggara,(0401-3195611),-4.0334681,122.4902072,"Jl. Kapten Piere Tendean, Watubangga, Baruga, Kota Kendari, Sulawesi Tenggara"
+158,RSUP Sanglah,Bali,(0361) 227911-15,-8.6757835,115.2109824,"Jl. Diponegoro, Dauh Puri Klod, Kec. Denpasar Bar., Kota Denpasar, Bali "
+159,"RSUD Sanjiwani, Gianyar.",Bali,(0361) 943049,-8.5372573,115.3203536,"Jl. Ciung Wanara-Gianyar No.2, Gianyar, Kec. Gianyar, Kabupaten Gianyar, Bali"
+160,RSU Tabanan,Bali,(0361) 811027,-8.5391479,115.1300213,"Jl. Pahlawan No.14, Delod Peken, Kec. Tabanan, Kabupaten Tabanan, Bali"
+161,RSUD Kabupaten Buleleng,Bali,(0362) 22046,-8.1206469,115.0827259,"Jl. Ngurah Rai No.30, Astina, Kec. Buleleng, Kabupaten Buleleng, Bali"
+162,RSUD Provinsi NTB,Nusa Tenggara Barat,(0370) 7502424,-8.4863308,118.6711513,"Jl. Datuk Dibanta, Jatiwangi, Asakota, Bima, Nusa Tenggara Barat."
+163,RSU Bima,Nusa Tenggara Barat,(0374) 43142,-8.5391479,115.1300213,"Jl. Langsat No.1, Rabangodu Sel., Raba, Bima, Nusa Tenggara Barat."
+164,RS H L Manambai Abdulkadir,Nusa Tenggara Barat,(0371) 2628078,-8.5315783,117.4455123,"Jl. Lintas Sumbawa-Bima KM 5, Seketeng, Kec. Sumbawa, Kabupaten Sumbawa, Nusa Tenggara Barat."
+165,"RSUD Dr R Soedjono,",Nusa Tenggara Barat,01-123 2234567,-8.6506132,116.5261823,"Jl. Prof. M Yamin SH No.55, Khusus Kota Selong, Selong, Kabupaten Lombok Timur, Nusa Tenggara Barat"
+166,RSU Prof Dr WZ Johanes,Nusa Tenggara Timur,(0380) 833614,-10.1698146,123.5844812,"Jl. Moch Hatta No.19, Kuanino, Kec. Kota Raja, Kota Kupang, Nusa Tenggara Timur"
+167,RSUD Dr Tc Hillers,Nusa Tenggara Timur,(+62)81261153944,-8.6223804,122.2020435,"JL Wairklau, No. 1, 86113, Kota Baru, Alok Tim., Kabupaten Sikka, Nusa Tenggara Tim"
+168,RSUD Komodo Labuan Bajo,Nusa Tenggara Timur,(+62)81337055250,-8.5177973,119.8709013,"Golo Bilas, Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Timur"
+169,RSU Dr M. Haulussy,Maluku,(0911) 344871,-8.6506132,116.5261823,"Jl. Dr. Kayadoe, Benteng, Nusaniwe, Kel Benteng, Nusaniwe, Kota Ambon, Maluku"
+170,RSUP dr J Leimena,Maluku,-,-3.7085186,128.1633375,"Rumah Tiga, Tlk. Ambon, Kota Ambon, Maluku"
+171,RSUD Dr P P Magretti,Maluku,(0918) 21113,-7.9742119,131.3059719,"JL. Ir. Soekarno - Poros Utama, Saumlaki, Tanimbar Sel., Kabupaten Maluku Tenggara Barat, Maluku"
+172,RSUD Dr H Chasan Boesoirie,Maluku Utara,(0921) 3121281,0.7820785,127.3735873,"Jl. Cempaka, Tanah Tinggi Bar., Ternate Sel., Kota Ternate, Maluku Utara"
+173,RSU Jayapura,Papua,(0967) 533616,-2.534945,140.7082262,"Jl. Kesehatan No.1, Dok II, Bayangkara, Jayapura Utara, Kota Jayapura, Papua"
+174,RSU Merauke,Papua,(0971) 32112,-8.4817861,140.3865955,"Jl. Soekarjo Wiryopranoto No.1, Maro, Kec. Merauke, Kabupaten Merauke, Papua"
+175,RSU Nabire,Papua,(0984) 21845,-3.3424558,135.5273993,"Jl. R.E. Martadinata, Siriwini, Kec. Nabire, Kabupaten Nabire, Papua"
+176,RSUD Manokwari,Papua Barat,(0986) 211440,-0.8708825,134.0765299,"Jl. Siliwangi No.1, Manokwari Bar., Kabupaten Manokwari, Papua Barat"
+177,RSUD Kabupaten Sorong,Papua Barat,(0951) 321850.,-0.8695863,131.2446338,"Jl. Kesehatan No.36, Kp. Baru, Kec. Sorong, Kota Sorong, Papua Barat"

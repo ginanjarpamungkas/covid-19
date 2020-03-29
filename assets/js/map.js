@@ -29,6 +29,7 @@ d3.csv('daftar-rs-rujukan.csv',function(csv){
         tooltip.html(`
                 <div style="max-width:300px">
                 <h4 class='kasus' style="padding-bottom:5px">` + d.nama + `</h4>
+                <h4 style="font-weight:300">` + d.alamat + `</h4>
                 <h4>Telp. ` + d.phone + `</h4>
                 </div>
             `).style('visibility','visible').style("left", ((d3.event.pageX)+10) + "px").style("top", (d3.event.pageY - 28) + "px")
