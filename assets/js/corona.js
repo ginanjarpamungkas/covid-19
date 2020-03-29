@@ -22,6 +22,12 @@ var tooltip = d3.select("body").append("div").attr("class", "tooltip")
 var url = "indonesia-corona.json";
 
 function forceNormal() {
+	var div = 3;
+	var scale = width/div/1.5;
+	var arrdomain = Array.from(Array(div), (value, index) => (index+1));
+	var arrrange = Array.from(Array(div), (value, index) => ((index+1)*scale));
+	var scaleCat = d3.scaleOrdinal().domain(arrdomain).range(arrrange)
+
 	simulation.force("center")
 		.x(width * forceProperties.center.x)
 		.y(height * forceProperties.center.y+50);
@@ -34,15 +40,39 @@ function forceNormal() {
 		.radius(forceProperties.collide.radius)
 		.iterations(forceProperties.collide.iterations);
 	simulation.force("forceY")
-		.strength(forceProperties.forceY.strength * forceProperties.forceY.enabled)
-		.y(height * forceProperties.forceY.y);
+		.strength(function (d) {
+			if (d.klasterid == 1) {
+				return 0.1
+			} else {
+				return forceProperties.forceY.strength * forceProperties.forceY.enabled
+			}})
+		.y(function (d) {
+			if (d.klasterid == 1) {
+				return scaleCat(d.klasterid)
+			} else {
+				return height * forceProperties.forceY.y
+			}});
 	simulation.force("forceX")
-		.strength(forceProperties.forceX.strength * forceProperties.forceX.enabled)
-        .x(width * forceProperties.forceX.x);
-
+		.strength( function (d) {
+			if (d.klasterid == 1) {
+				return 0.1
+			} else {
+				return forceProperties.forceX.strength * forceProperties.forceX.enabled
+			}})
+		.x(function (d) {
+			if (d.klasterid == 1) {
+				return height * forceProperties.forceX.x
+			} else {
+				return width * forceProperties.forceX.x
+			}});
     var domain = [1,2,3,4];
     var warnaStatus = d3.scaleOrdinal().domain(domain).range(["#36aa01","#ffc904","#fe0a0a","#767974"]);
-    node.attr("r", radius).style("fill", function(d) {return warnaStatus( d.statusid );}).style("stroke", "white").style("stroke-width", 3)
+    node.attr("r", radius).style("fill", function(d) {return warnaStatus( d.statusid );}).style("stroke", function (d) {
+		if (d.klasterid == 1) {
+			return "red"
+		} else {
+			return "white"
+		}}).style("stroke-width", 3)
 };
 
 function forceAge() {
