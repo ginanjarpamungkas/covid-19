@@ -2,7 +2,7 @@ var svg = d3.select(".map-container").append("svg").attr('x', 0).attr('y', 0).at
 var g_indonesia = svg.append("g").attr("class", "indonesia")
 var g_others = svg.append("g").attr("class", "others")
 var g_bubbles = svg.append("g").attr("class", "bubbles")
-var tooltip = d3.select("body").append("div").attr("class", "tooltip")
+var tooltip = d3.select(".contain-maps").append("div").attr("class", "tooltip")
 
 var projection = d3.geoMercator().scale(1200).translate([-1990, 200]);
 
