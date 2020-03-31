@@ -35,9 +35,9 @@
     <link rel="shortcut icon" href="https://interaktif.tempo.co/proyek/13-tahun-aksi-kamisan/favicon.ico" type="image/x-icon" >
     <link rel="stylesheet" href="https://ginanjarpamungkas.github.io/font-awesome/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/d3.v5.min.js"></script>
-    <script src="assets/js/d3-dsv.v1.min.js"></script>
-    <script src="assets/js/d3-fetch.v1.min.js"></script>
+    <script src="assets/js/d3.v4.min.js"></script>
+    <script src="assets/js/queue.v1.min.js"></script>
+    <script src="assets/js/topojson.v1.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -75,51 +75,7 @@
                 </div>
             </div>
 			<div class="corona-container">
-				<div class="form-left"  data-aos="fade-up">
-                    <label><strong>PENGELOMPOKAN:</strong>
-                        <select onchange="updateAll()">
-                            <option id="normal" selected value="volvo" onchange="updateAll()">Normal</option>
-                            <option id="cluster" value="cluster" >Klaster</option>
-                            <option id="gender" value="gender" >Jenis Kelamin</option>
-                            <option id="umur" value="umur" >Usia</option>
-                        </select>
-                    </label>
-                </div>
-                <ul class="legends" id="normals" data-aos="fade-up">
-                    <li><span class="legend positif"></span> SEDANG DIRAWAT</li>
-                    <li><span class="legend sembuh"></span> SEMBUH</li>
-                    <li><span class="legend mati"></span> MENINGGAL</li>
-                    <li><span class="legend" style="background-color:#767974;"></span> Tidak diketahui</li>
-                </ul>
-                <ul class="legends" id="klaster" data-aos="fade-up">
-                    <li><span class="legend" style="background-color:#fb0a0a;"></span> Jakarta</li>
-                    <li><span class="legend" style="background-color:#fb0ad0;"></span> Diamond Princess</li>
-                    <li><span class="legend" style="background-color:#1b0afb;"></span> Kasus Impor</li>
-                    <li><span class="legend" style="background-color:#0afbed;"></span> Jakarta Impor</li>
-                    <li><span class="legend" style="background-color:#0afb21;"></span> Subklaster 3</li>
-                    <li><span class="legend" style="background-color:#f9fc1d;"></span> Subklaster 1</li>
-                    <li><span class="legend" style="background-color:#fc9b1d;"></span> Subklaster 20</li>
-                    <li><span class="legend" style="background-color:#767974;"></span> Tidak diketahui</li>
-                    <li><span class="legend" style="background-color:#1db0fc;"></span> istana negara</li>
-                </ul>
-                <ul class="legends" id="usia" data-aos="fade-up">
-                    <li><span class="legend" style="background-color:#2d16b9;"></span> 0-9 tahun</li>
-                    <li><span class="legend" style="background-color:#3f23b2;"></span> 10-19 tahun</li>
-                    <li><span class="legend" style="background-color:#4c2fac;"></span> 20-29 tahun</li>
-                    <li><span class="legend" style="background-color:#5639a5;"></span> 30-39 tahun</li>
-                    <li><span class="legend" style="background-color:#5d439e;"></span> 40-49 tahun</li>
-                    <li><span class="legend" style="background-color:#644c98;"></span> 50-59 tahun</li>
-                    <li><span class="legend" style="background-color:#695591;"></span> 60-69 tahun</li>
-                    <li><span class="legend" style="background-color:#6e5e8a;"></span> 70-79 tahun</li>
-                    <li><span class="legend" style="background-color:#716783;"></span> 80-89 tahun</li>
-                    <li><span class="legend" style="background-color:#74707b;"></span> 90-99 tahun</li>
-                    <li><span class="legend" style="background-color:#767974;"></span> tidak diketahui</li>
-                </ul>
-                <ul class="legends" id="jeniskelamin" data-aos="fade-up">
-                    <li><span class="legend" style="background-color:#f513f2;"></span> perempuan</li>
-                    <li><span class="legend" style="background-color:#1328f5;"></span> laki-laki</li>
-                    <li><span class="legend" style="background-color:#767974;"></span> tidak diketahui</li>
-                </ul>
+				<div class="map-container"></div>
                 <p class="source">Lorem ipsum dolor sit amet</p>
             </div>
         </div>
@@ -229,7 +185,7 @@
     </footer>
 <script src="assets/js/jquery3.js"></script>
 <script src="assets/js/logic.js"></script>
-<script src="assets/js/corona.js"></script>
+<script src="assets/js/maps.js"></script>
 <script src="assets/js/hammer.js"></script>
 <script src="assets/js/api.js"></script>
 <script>

@@ -1,0 +1,32 @@
+Id,Provinsi,Positif,Sembuh,Meninggal
+11,Aceh,5,0,0
+51,Bali,19,0,2
+36,Banten,128,1,4
+34,DI Yogyakarta,18,1,2
+31,DKI Jakarta,698,48,74
+15,Jambi,2,0,0
+32,Jawa Barat,180,8,20
+33,Jawa Tengah,81,0,7
+35,Jawa Timur,91,16,8
+61,Kalimantan Barat,9,0,0
+64,Kalimantan Timur,17,0,0
+62,Kalimantan Tengah,7,0,0
+63,Kalimantan Selatan,0,0,0
+65,Kalimantan Utara,2,0,0
+21,Kepulauan Riau,6,0,0
+52,Nusa Tenggara Barat,2,0,0
+16,Sumatera Selatan,2,0,2
+13,Sumatera Barat,8,0,0
+12,Sumatera Utara,13,0,1
+71,Sulawesi Utara,2,1,0
+74,Sulawesi Tenggara,3,0,0
+73,Sulawesi Selatan,50,0,1
+72,Sulawesi Tengah,3,0,0
+18,Lampung,8,0,0
+14,Riau,3,0,1
+82,Maluku Utara,1,0,0
+81,Maluku,1,0,0
+92,Papua Barat,2,0,0
+91,Papua,9,0,0
+76,Sulawesi Barat,1,0,0
+19,Kepulauan Bangka Belitung,1,0,0
