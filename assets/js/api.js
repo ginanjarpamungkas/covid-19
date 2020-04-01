@@ -2,7 +2,7 @@
 var USERNAME = 'covid19'
 var PASSWORD = 'Covid19%'
 var url="https://data.kemkes.go.id/data/api/analytics.json?";
-var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"; var colorTrend="#702870"; var colorActive="#fffc40";
+var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"; var colorTrend="#702870"; var colorActive="#000c40";
 
     $(document).ready(function() { 
         boxData();
@@ -64,25 +64,25 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                 cumulativeData.shift();
                 //highchart
                 Highcharts.chart('container_confirmed', {
-                    title: { style: {color: '#fff'},text: 'Konfirmasi' },
+                    title: { style: {color: '#000'},text: 'Konfirmasi' },
                     xAxis: {
                         min:0,
-                        title: { style: {color: '#fff'},text: 'Periode' },                        
+                        title: { style: {color: '#000'},text: 'Periode' },                        
                         categories: pe,
-                        labels:{style: {color: '#fff'}},
+                        labels:{style: {color: '#000'}},
                     },
                     yAxis: {
                         min: 0,
-                        title: { style: {color: '#fff'},text: 'Kasus' },
-                        labels: {style: {color: '#fff'},}
+                        title: { style: {color: '#000'},text: 'Kasus' },
+                        labels: {style: {color: '#000'},}
                     },
                     exporting:{ enabled:false },
                     credits: { enabled: false },
                     legend: {
-                        backgroundColor: Highcharts.defaultOptions.legend.backgroundColor || '#D3412A',
+                        backgroundColor: Highcharts.defaultOptions.legend.backgroundColor || '#efebe0',
                         borderColor: '#CCC',
                         borderWidth: 0,
-                        itemStyle:{color: '#fff'},
+                        itemStyle:{color: '#000'},
                         shadow: false
                     },
                     colors: [colorConfirmed, colorTrend],
@@ -147,23 +147,23 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                 cumulativeData.shift();
                 //highchart
                 Highcharts.chart('container_recovered', {
-                    title: { style: {color: '#fff'},text: 'Sembuh', },
+                    title: { style: {color: '#000'},text: 'Sembuh', },
                     xAxis: {
                         min:0,
-                        title: { style: {color: '#fff'},text: 'Periode' },   
-                        labels: {style: {color: '#fff'}},
+                        title: { style: {color: '#000'},text: 'Periode' },   
+                        labels: {style: {color: '#000'}},
                         categories: pe
                     },
                     yAxis: {
                         min: 0,
-                        title: { style: {color: '#fff'},text: 'Kasus' },
-                        labels:{style: {color: '#fff'},}
+                        title: { style: {color: '#000'},text: 'Kasus' },
+                        labels:{style: {color: '#000'},}
                     },
                     exporting:{ enabled:false },
                     credits: { enabled: false },
                     legend: {
-                        backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || '#D3412A',
-                        itemStyle:{color: '#fff'},
+                        backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || '#efebe0',
+                        itemStyle:{color: '#000'},
                         borderColor: '#CCC',
                         borderWidth: 0,
                         shadow: false
@@ -229,23 +229,23 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                 cumulativeData.shift();
                 //highchart
                 Highcharts.chart('container_die', {
-                    title: { style: {color: '#fff'},text: 'Meninggal' },
+                    title: { style: {color: '#000'},text: 'Meninggal' },
                     xAxis: {
                         min:0,
-                        title: { style: {color: '#fff'},text: 'Periode' },  
-                        labels:{style: {color: '#fff'},},
+                        title: { style: {color: '#000'},text: 'Periode' },  
+                        labels:{style: {color: '#000'},},
                         categories: pe
                     },
                     yAxis: {
                         min: 0,
-                        title: { style: {color: '#fff'},text: 'Kasus' },
-                        labels:{style: {color: '#fff'},}
+                        title: { style: {color: '#000'},text: 'Kasus' },
+                        labels:{style: {color: '#000'},}
                     },
                     exporting:{ enabled:false },
                     credits: { enabled: false },
                     legend: {
-                        backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || '#D3412A',
-                        itemStyle:{color: '#fff'},
+                        backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || '#efebe0',
+                        itemStyle:{color: '#000'},
                         borderColor: '#CCC',
                         borderWidth: 0,
                         shadow: false
