@@ -71,7 +71,7 @@ img.transmisi {width: 150px;margin: 0 auto;}
 .highcharts-background {fill:#D3412A !important}
 .col-sm-12{width: 100%;float: left;}
 hr{margin:10px 20pt}
-.corona-container{position: relative;}
+.chart-container,.corona-container{position: relative;}
 .form-left{display: flex;flex-direction: column;padding-right: 15pt;align-items: flex-end;font-size: 20px;}
 .form-left select{font-family: 'Montserrat',sans-serif;font-size: 20px;}
 .count-covid{display: grid;grid-template-areas:'main main main';padding: 20pt;}
@@ -156,6 +156,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #f79518;border-bot
     .box, .box-slider {max-width: 100%;background-color: rgb(255,255,255,0.8);font-size: 12px;}
     html{overflow-x: hidden;}
     h1 {font-size: 40px;}
+    .main .menu-covid{margin-top: 25px;}
+    .main p.padding {padding: 0 20px;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 20px;}
     .section-1 .covid-virus .virus {width: 300px;}
     .box-1,.box-2,.box-3,.box-4,.box-5{left: 10px;right: 10px;}

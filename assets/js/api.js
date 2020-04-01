@@ -7,8 +7,13 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     $(document).ready(function() { 
         boxData();
         chartConfirmed(); 
-        chartRecovered(); 
-        chartDie(); 
+        // $.when(chartConfirmed()).done(function() {
+        //     $(".chart-slider").slick({
+        //         dots: false,
+        //         arrows:true,
+        //         speed: 1000,
+        //     });
+        // })
     });
     function boxData(){
         var urlChart= url + "dimension=dx:SlMC7W5vVRw;TAqRuO1R1eI;U7BaEXUa1Ii;UEBmmFH8OzT&dimension=pe:THIS_YEAR&filter=ou:amZZzlibrMp&skipData=false&skipMeta=false&includeNumDen=false&displayProperty=SHORTNAME";
@@ -106,6 +111,9 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                         data: cumulativeData
                     }]
                 });
+                $.when(Highcharts).done(function() {
+                    chartRecovered()
+                })
             },
             error: function(err) {
                     cache: false
@@ -186,6 +194,9 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                         data: cumulativeData
                     }]
                 });                
+                $.when(Highcharts).done(function() {
+                    chartDie()
+                })
             },
             error: function(err) {
                     cache: false
@@ -265,6 +276,13 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
                         data: cumulativeData
                     }]
                 });
+                $.when(Highcharts).done(function() {
+                    $(".chart-slider").slick({
+                        dots: false,
+                        arrows:true,
+                        speed: 1000,
+                    });
+                })
             },
             error: function(err) {
                     cache: false
