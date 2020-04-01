@@ -1,4 +1,4 @@
-body{font-family: 'Montserrat',sans-serif;background-color: #00455c;margin: 0;color: #fff;overflow-x: hidden;}
+body{font-family: 'Montserrat',sans-serif;background-color: #D3412A;margin: 0;color: #fff;overflow-x: hidden;}
 body.hide-scroll{overflow: hidden;max-height: 100vh;}
 h1,h2,h3,h4,h5{margin: 0;}
 h1 {font-size: 100px;text-transform: uppercase;color: #fff;text-align: center;}
@@ -7,14 +7,14 @@ a{text-decoration: none;}
 .line {height: 100%;width: 20px;background-color: #fff;}
 .hide {display: none;}
 .covid-hide {opacity: 0;position: absolute;z-index: -1000;width: 100%;height: 20px;overflow: hidden;}
-.question {position: absolute;z-index: 1;background-color: #00455c;}
+.question {position: absolute;z-index: 1;background-color: #D3412A;}
 .section-3,.section-5,.section-1{height: 100vh;}
-.main{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;overflow: hidden;background-color: #00455c;}
+.main{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;overflow: hidden;background-color: #D3412A;}
 .name-covid{color: #ffca04;}
 .main .menu-covid{margin-top: 50px;}
 .menu-covid li{display: inline-block;margin: 0 10px;}
 .menu-covid li a, .game-start {text-decoration: none;font-size: 50px;text-transform: capitalize;background-color: #fff;padding: 6pt 36pt;border-radius: 40px;font-weight: bold;cursor: pointer;color: #000;}
-.menu-covid li a:hover, .game-start:hover{background-color: rgb(255,255,255,0.5);}
+.menu-covid li a:hover, .game-start:hover{background-color: #f79518;color: #fff;}
 
 .covid-virus {height:80vh;width: 100%;position: relative;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .section-1 .covid-virus .virus{width: 250px;webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;margin-top:-10vh;}
@@ -68,18 +68,21 @@ img.transmisi {width: 150px;margin: 0 auto;}
 .hide-desktop {display: none;}
 
 /*indonesia corona */
+.highcharts-background {fill:#D3412A !important}
+.col-sm-12{width: 100%;float: left;}
+hr{margin:10px 20pt}
 .corona-container{position: relative;}
 .form-left{display: flex;flex-direction: column;padding-right: 15pt;align-items: flex-end;font-size: 20px;}
 .form-left select{font-family: 'Montserrat',sans-serif;font-size: 20px;}
 .count-covid{display: grid;grid-template-areas:'main main main';padding: 20pt;}
-.col-4{padding: 15pt 5pt;}
-.col-4 h3{text-align: center;color: #fff;}
-.count{font-size: 80pt;text-align: center;font-weight: bolder;background-color: #046183;}
+.col-4{padding: 15pt 10pt;}
+.col-4 h3{text-align: center;color: #fff;background: #fff;margin-bottom: 20px;padding: 10px 0;}
+.count{font-size: 70pt;text-align: center;font-weight: bolder;background-color: #f79518;}
 h3.positif{color: #ffc904;}
 h3.sembuh{color: #36aa01;}
 h3.mati{color: #fe0a0a;}
 .contain-maps{position: relative;}
-.tooltip{position: absolute;padding: 8pt;z-index: 10;width: fit-content;margin: auto;background-color: #046183;font-family: 'Montserrat',sans-serif;top: 100px;visibility:hidden;}
+.tooltip{position: absolute;padding: 8pt;z-index: 10;width: fit-content;margin: auto;background-color: #f79518;font-family: 'Montserrat',sans-serif;top: 100px;visibility:hidden;}
 .tooltip h4 {margin: 5px auto;font-weight: bold;}
 .tooltip h4.kasus{border-bottom: 10px solid #fff;}
 .container p.source{padding-left:15pt;position: absolute;left: 0;bottom: 0;}
@@ -110,15 +113,15 @@ footer .related-article .content-article h6 {font-size: 0.9em;line-height: 150%;
 footer .related-article .row+.backto-box {margin: 50px 0 0;}
 footer .backto-box {font-size: 0.9em;text-transform: uppercase;letter-spacing: 0.5pt;line-height: 100%;margin: 0;}
 footer .link-to{color: #fff;cursor: pointer;}
-footer .link-to:hover{color: rgb(255,255,255,0.5);}
+footer .link-to:hover{color: #f79518;}
 footer .backto-box a {color: #fff;display: inline-block;border: 2px solid #fff;display: inline-block;padding: 12px 16px 13px;border-radius: 10px;}
-footer .backto-box a:hover {color: #000;border: 2px solid rgb(255,255,255,0.8);background-color: rgb(255,255,255,0.5);}
+footer .backto-box a:hover {background-color: #f79518;}
 footer .related-article .mouse-scroll.back-top {margin-top: 50px;}
 footer .mouse-scroll.back-top {width: 120px;margin-left: -60px;display: block;position: relative;left: initial;right: initial;top: initial;bottom: initial;margin: 0 auto;}
 footer .mouse-scroll {display: none;text-align: center;color: #fff;font-size: 0.7em;cursor: pointer;padding-top: 60px;position: absolute;z-index: 1;top: initial;left: 50%;right: initial;bottom: 10px;width: 60px;margin-left: -30px;-webkit-transition: all 0.3s linear;transition: all 0.3s linear;}
 footer .mouse-scroll .icon-arrow {position: absolute;top: initial;left: 50%;right: initial;bottom: 20px;width: 24px;height: 24px;margin-left: -12px;border-left: 3px solid #fff;border-bottom: 3px solid #fff;-webkit-transform: rotate(135deg);transform: rotate(135deg);-webkit-animation: back-top 1.5s infinite;animation: back-top 1.5s infinite;}
-footer .mouse-scroll:hover{color: rgb(255,255,255,0.5)}
-footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.5);border-bottom: 3px solid rgb(255,255,255,0.5);}
+footer .mouse-scroll:hover{color: #f79518}
+footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #f79518;border-bottom: 3px solid #f79518;}
 .map-container{padding: 0 50pt;margin-bottom: 50px;}
 @media only screen and (max-width:1200px){
     h1 {font-size: 80px;}
@@ -150,7 +153,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
 }
 
 @media only screen and (max-width:650px){
-    .box, .box-slider {max-width: 100%;background-color: rgb(255,255,255,0.8);}
+    .box, .box-slider {max-width: 100%;background-color: rgb(255,255,255,0.8);font-size: 12px;}
     html{overflow-x: hidden;}
     h1 {font-size: 40px;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 20px;}
@@ -175,23 +178,28 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid rgb(255,255,255,0.
     .transmisi-content ul {padding: 20pt 6pt;}
     .content-slider-atasi, .single-content {padding: 20pt 40px;}
     .content-slider-atasi p,.single-content p {font-weight: unset;}
-    .content-slider-atasi img.transmisi,.single-content img.transmisi {width: 200px;}
+    .transmisi-content ul li{margin: 0 30px;font-weight: unset;font-size: 20px;}
+    .transmisi-content.atasi ul li{font-size: 25px;}
+    .content-slider-atasi ul li{font-weight: unset;font-size: 25px;}
+    img.transmisi,.single-content img.transmisi {width: 200px;}
     p.padding{padding:0}
 
     .row {padding-left: 0;padding-right: 0;display: block;}
-    .col-sm-6{position: relative;max-width: 100%;}
-
-    .count-covid{grid-template-areas:'main';padding: 20pt;}
+    .col-sm-6{position: relative;max-width: 100%;overflow: visible !important;}
+    .count-covid {padding: 0;}
+    .col-4 {padding: 5pt;}
+    .col-4 h3 {font-size: 10pt;}
+    .count {font-size: 20pt;padding: 10pt 0;}
     .container p {padding: 0 40px;}
     .container p.source {bottom: -15px;font-size: 10px;}
-    .legends {bottom:-12vh;font-weight: 300;}
+    .legends {bottom:-13vh;font-weight: 300;}
     .legends li {display: inline;font-size: 10px;}
     .legend{padding: 0px 5px;}
     .content-slider-atasi ul, .transmisi-content ul.atasi{
         flex-direction: column;padding: 0;
     }
     .map-container{padding: 0;}
-    .tooltip{top: unset !important;left: 0 !important;bottom: -12vh !important;right: 0 !important;width: 100%;}
+    .tooltip{position: fixed;top: unset !important;left: 0 !important;bottom: 0 ;right: 0 ;width: 100%;}
 }
 
 @media only screen and (max-width:380px){
