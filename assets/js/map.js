@@ -16,7 +16,7 @@ function zoomed() {
 
 svg.call(zoom)
 
-var projection = d3.geoMercator().scale(2500).translate([-4200, 100]);
+var projection = d3.geoMercator().scale(1200).translate([-1990, 200]);
 
 var path = d3.geoPath().projection(projection);
 
@@ -29,12 +29,12 @@ d3.csv('daftar-rs-rujukan.csv',function(csv){
     .data(csv, function(d) { return d.id })
     .enter().append("circle")
     .attr('class', 'seizure-bubble')
-    .attr("fill", "#fff")
+    .attr("fill", "#f79518")
     .attr("r", 2)
     .attr("cx", function(d) { return projection([+d.long, +d.lat])[0]; })
     .attr("cy", function(d) { return projection([+d.long, +d.lat])[1]; })
     .on("mouseover", function(d) {
-        d3.select(this).transition().style("stroke", "#f79518").style('fill-opacity',1)
+        d3.select(this).transition().style("stroke", "#000").style('fill-opacity',1)
         tooltip.html(`
                 <div style="max-width:300px">
                 <h4 class='kasus' style="padding-bottom:5px">` + d.nama + `</h4>
