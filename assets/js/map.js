@@ -16,7 +16,7 @@ function zoomed() {
 
 svg.call(zoom)
 
-var projection = d3.geoMercator().scale(1200).translate([-1990, 200]);
+var projection = d3.geoMercator().scale(2500).translate([-4200, 100]);
 
 var path = d3.geoPath().projection(projection);
 
