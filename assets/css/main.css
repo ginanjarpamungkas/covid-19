@@ -201,6 +201,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     p.padding{padding:0}
 
     h1.start-section {font-size: 60px;max-width: 300px;margin: 0 auto;}
+    .game p.small-p {font-size: 16px !important;}
     .game p.small-p, .game p{font-size: 16px;padding: 5pt 15pt;}
     .row {padding-left: 0;padding-right: 0;display: block;}
     .col-sm-6{position: relative;max-width: 100%;overflow: visible !important;}
