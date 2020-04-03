@@ -22,6 +22,7 @@ a{text-decoration: none;}
 .covid-virus {height:80vh;width: 100%;position: relative;display: flex;flex-direction: column;justify-content: center;align-items: center;}
 .section-1 .covid-virus .virus{width: 250px;webkit-animation: fa-spin 2s infinite linear;animation: fa-spin 2s infinite linear;margin-top:-10vh;}
 .box,.box-slider{position: absolute;background-color: #f79518;border-radius: 20px;max-width: 40vh;padding: 8pt 14pt;font-weight: 300;color: #fff;}
+.kotak {background-color: #f79518;border-radius: 20px;width:100%;padding: 8pt 14pt;font-weight: 300;color: #fff;margin: 10px auto;}
 .box-1 {left: 10vw;top: 5vh;}
 .box-2 {right: 10vw;top: 5vh;}
 .box-3 {left: 10vw;bottom: 15vh;}
@@ -64,7 +65,7 @@ p.padding{padding: 0 50pt;}
 .single-content{padding: 50pt;}
 .single-content img.transmisi {width: 300px;margin: 0 auto;}
 .single-content p {font-size: 25px;font-weight: bold;}
-img.transmisi {width: 150px;margin: 0 auto;}
+img.transmisi {width: 150px;margin: 10px auto;}
 
 .section-5 {display: flex;flex-direction: column;justify-content: center;overflow: hidden;}
 .game {height: auto;}
@@ -142,6 +143,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:800px){
+    .kotak {width:unset}
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
     h1{padding: 0 20%;}
@@ -164,7 +166,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 
 @media only screen and (max-width:650px){
     .section-5{height: 135vh;}
-    .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);font-size: 12px;}
+    .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);}
     html{overflow-x: hidden;}
     h1, h1.pasien {font-size: 40px;}
     h3 {font-size: 19px;padding: 0 20%;}
