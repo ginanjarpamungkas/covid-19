@@ -30,7 +30,7 @@ d3.csv('daftar-rs-rujukan.csv',function(csv){
     .enter().append("circle")
     .attr('class', 'seizure-bubble')
     .attr("fill", "#f79518")
-    .attr("r", 2)
+    .attr("r", 5)
     .attr("cx", function(d) { return projection([+d.long, +d.lat])[0]; })
     .attr("cy", function(d) { return projection([+d.long, +d.lat])[1]; })
     .on("mouseover", function(d) {
