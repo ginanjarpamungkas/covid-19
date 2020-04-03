@@ -35,9 +35,12 @@
   <link rel="stylesheet" href="https://ginanjarpamungkas.github.io/font-awesome/font-awesome.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="assets/js/jquery3.js"></script>
-    <script src="assets/js/d3.v4.min.js"></script>
-    <script src="assets/js/queue.v1.min.js"></script>
-    <script src="assets/js/topojson.v1.min.js"></script>
+  <script src="assets/js/d3.v4.min.js"></script>
+  <script src="assets/js/queue.v1.min.js"></script>
+  <script src="assets/js/topojson.v1.min.js"></script>
+  <script src="assets/js/highcharts.js"></script>
+  <script src="assets/js/export-data.js"></script>
+  <script src="assets/js/exporting.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -59,8 +62,7 @@
     <div>
         <div class="container">
             <h1 id="title">Kondisi <font class="name-covid">covid-19</font></h1>
-            <center><p>Berikut adalah angka dan statistik yang berkaitan dengan penyebaran COVID-19 di Indonesia. Data dari counter diambil langsung dari Kementerian Kesehatan Indonesia dan berubah bersamaan dengan pemerintah pusat. Peta di bawah diperbarui tiap hari.
-</p></center>
+            <center><p>Berikut adalah angka dan statistik yang berkaitan dengan penyebaran COVID-19 di Indonesia. Data dari counter diambil langsung dari Kementerian Kesehatan Indonesia dan berubah bersamaan dengan pemerintah pusat. Peta di bawah diperbarui tiap hari.</p></center>
             <div class="count-covid">
                 <div class="col-4">
                     <h3 class="positif title">KASUS POSITIF</h3>
@@ -75,15 +77,6 @@
                     <div class="mati count" id="mati-count">0</div>
                 </div>
             </div>
-            <div class="chart-container">
-                <div class="chart-slider">
-                    <div id="container_confirmed" class="col-sm-12"></div>
-                    <div id="container_recovered" class="col-sm-12"></div>
-                    <div id="container_die" class="col-sm-12"></div>
-                </div>
-                <p class="source">*Data diupdate tiap 14 hari.</p>
-            </div>
-            <hr>
 			<div class="corona-container">
 				<div class="map-container">
                 </div>
@@ -101,6 +94,14 @@
                     <li><span class="legend" style="background-color:#682003;"></span> 100 ></li>
                 </ul>
                 <p class="source">*klik provinsi untuk melihat status dan kondisi persebaran COVID-19.</p>
+            </div>
+            <div class="chart-container" style="margin-top: 40pt;">
+                <div class="chart-slider">
+                    <div id="container_confirmed" class="col-sm-12"></div>
+                    <div id="container_recovered" class="col-sm-12"></div>
+                    <div id="container_die" class="col-sm-12"></div>
+                </div>
+                <p class="source">*Data diupdate tiap 14 hari.</p>
             </div>
         </div>
     </div>

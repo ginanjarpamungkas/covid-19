@@ -1,7 +1,8 @@
 body{font-family: 'Montserrat',sans-serif;background-color: #EFEBE0;margin: 0;color: #000;overflow-x: hidden;}
 body.hide-scroll{overflow: hidden;max-height: 100vh;}
 h1,h2,h3,h4,h5{margin: 0;}
-h1 {font-size: 100px;text-transform: uppercase;color: #000;text-align: center;font-weight: bold;}
+h1 {font-size: 100px;text-transform: uppercase;color: #000;text-align: center;font-weight: 900;margin-top: 20pt;}
+h1.pasien {font-size: 90px;margin-top: 20pt;}
 h3 {font-size: 40px;text-align: center;text-transform: uppercase;}
 ul {list-style: none;padding: 0;}
 a{text-decoration: none;}
@@ -129,7 +130,7 @@ footer .mouse-scroll:hover{color: #D3412A}
 footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bottom: 3px solid #D3412A;}
 .map-container{padding: 0 50pt;}
 @media only screen and (max-width:1200px){
-    h1 {font-size: 80px;}
+    h1, h1.pasien {font-size: 80px;}
     .section-3 {height: fit-content;}
     .box-2{top:15vh}
     .box-3{bottom:25vh}
@@ -142,7 +143,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 @media only screen and (max-width:800px){
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
-    h1 {font-size: 60px;margin-top: 20pt;}
+    h1, h1.pasien {font-size: 60px;}
     h3 {font-size: 35px;}
     .menu-covid li a,.game-start{font-size: 30px;}
     .box-1,.box-3{left: 10px;}
@@ -160,8 +161,9 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 @media only screen and (max-width:650px){
     .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);font-size: 12px;}
     html{overflow-x: hidden;}
-    h1 {font-size: 40px;}
-    h3 {font-size: 19px;}
+    h1, h1.pasien {font-size: 40px;}
+    h3 {font-size: 19px;padding: 0 20%;}
+    .covid-virus.slider-cov {justify-content: unset;height: 60vh;}
     .main .menu-covid{margin-top: 25px;}
     .main p.padding,p.padding.mobile {padding: 0 20px;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 20px;}
@@ -213,7 +215,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 
 @media only screen and (max-width:380px){
     .section-5{height: 135vh;}
-    h1 {font-size: 30px;}
+    h1, h1.pasien {font-size: 30px;}
+    h1.start-section {font-size: 60px;max-width: 295px;margin: 0 auto;}
     .box{font-size: 12px;}
     .box-2{top: 70px;}
     .box-3{top:185px}
@@ -221,12 +224,11 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .menu-covid li {display: list-item;margin: 2em auto;text-align: center;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 25px;}
     .single-content p {font-weight: unset;font-size: unset;}
-    .game p{font-size: 20px;padding: 0 15pt;}
-    .game p.small-p{font-size: 16px;padding: 5pt 15pt;}
+    .game p.small-p, .game p{font-size: 16px;padding: 5pt 15pt;}
 }
 
 @media only screen and (max-width:320px){
-    h1 {font-size: 45px;}
+    h1, h1.pasien {font-size: 45px;}
     .box-1,.box-2,.box-3,.box-4,.box-5{left: 0;right: 0;}
     .human-covid {margin: 0 1em;}
     .human-covid li img{width: 80px;}
