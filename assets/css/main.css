@@ -1,7 +1,7 @@
 body{font-family: 'Montserrat',sans-serif;background-color: #EFEBE0;margin: 0;color: #000;overflow-x: hidden;}
 body.hide-scroll{overflow: hidden;max-height: 100vh;}
 h1,h2,h3,h4,h5{margin: 0;}
-h1 {font-size: 100px;text-transform: uppercase;color: #000;text-align: center;}
+h1 {font-size: 100px;text-transform: uppercase;color: #000;text-align: center;font-weight: bold;}
 h3 {font-size: 40px;text-align: center;text-transform: uppercase;}
 ul {list-style: none;padding: 0;}
 a{text-decoration: none;}
@@ -9,7 +9,7 @@ a{text-decoration: none;}
 .hide {display: none;}
 .covid-hide {opacity: 0;position: absolute;z-index: -1000;width: 100%;height: 20px;overflow: hidden;}
 .question {position: absolute;z-index: 1;background-color: #EFEBE0;}
-.section-3,.section-5,.section-1{height: 100vh;}
+.section-5{height: 100vh;}
 .main{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 2;overflow: hidden;background-color: #EFEBE0;}
 .name-covid{color: #ffca04;}
 .main .menu-covid{margin-top: 50px;}
@@ -26,6 +26,7 @@ a{text-decoration: none;}
 .box-4 {right: 10vw;bottom:15vh}
 .box-5 {bottom: 10px;}
 .slider-virus {width: 100vw;}
+.slider-virus .slick-list .slick-track {display: flex !important;align-items: center !important;}
 .box-mobile {background-color: #f79518;border-radius: 20px;padding: 8pt 14pt;font-weight: 300;color: #fff;margin: 20pt 10vw 0;max-width: 90vw;height: 100%;}
 
 .human-covid {display: flex;width: 50%;justify-content: center;}
@@ -65,7 +66,8 @@ img.transmisi {width: 150px;margin: 0 auto;}
 
 .section-5 {display: flex;flex-direction: column;justify-content: center;overflow: hidden;}
 .game {height: auto;}
-.game p {text-align: center;padding: 20pt;font-size: 30px;font-weight: bold;}
+.game p {text-align: center;padding: 20pt;font-size: 20px;font-weight: bold;}
+.game p.small-p{font-size: 16px;padding: 5pt 100pt;}
 .start-section{z-index: 3;}
 .hide-mobile {display: block;}
 .hide-desktop {display: none;}
@@ -141,6 +143,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
     h1 {font-size: 60px;margin-top: 20pt;}
+    h3 {font-size: 35px;}
     .menu-covid li a,.game-start{font-size: 30px;}
     .box-1,.box-3{left: 10px;}
     .box-2,.box-4{right: 10px;}
@@ -158,7 +161,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);font-size: 12px;}
     html{overflow-x: hidden;}
     h1 {font-size: 40px;}
-    h3 {font-size: 20px;}
+    h3 {font-size: 19px;}
     .main .menu-covid{margin-top: 25px;}
     .main p.padding,p.padding.mobile {padding: 0 20px;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 20px;}
@@ -179,7 +182,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .slider-covid::-moz-range-track {width: 90%;}
     .slider-covid::-ms-track {width: 90%;}
 
-    ul.box-box-slider {display: block;}
+    ul.box-box-slider {display: block;position: relative;}
+    .box-box-slider li {position: absolute;top:0}
     .transmisi-content ul {padding: 20pt 6pt;}
     .content-slider-atasi, .single-content {padding: 20pt 40px;}
     .content-slider-atasi p,.single-content p {font-weight: unset;}
@@ -208,6 +212,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:380px){
+    .section-5{height: 135vh;}
     h1 {font-size: 30px;}
     .box{font-size: 12px;}
     .box-2{top: 70px;}
@@ -216,7 +221,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .menu-covid li {display: list-item;margin: 2em auto;text-align: center;}
     .menu-covid li a,.game-start{padding: 6pt 16pt;font-size: 25px;}
     .single-content p {font-weight: unset;font-size: unset;}
-    .game p{font-size: 20px;}
+    .game p{font-size: 20px;padding: 0 15pt;}
+    .game p.small-p{font-size: 16px;padding: 5pt 15pt;}
 }
 
 @media only screen and (max-width:320px){

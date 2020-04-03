@@ -34,7 +34,11 @@
 	  <meta name="twitter:image:height" content="433" />
 	  <link rel="shortcut icon" href="https://interaktif.tempo.co/proyek/13-tahun-aksi-kamisan/favicon.ico" type="image/x-icon" >
 	  <link rel="stylesheet" href="https://ginanjarpamungkas.github.io/font-awesome/font-awesome.css">
-	  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      <script src="assets/js/jquery3.js"></script>
+    <script src="assets/js/d3.v4.min.js"></script>
+    <script src="assets/js/queue.v1.min.js"></script>
+    <script src="assets/js/topojson.v1.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -105,22 +109,17 @@
         </div>
         <div class="section-4">
             <h1 >diagnosa <font class="name-covid">covid-19</font></h1>
+            <div class="transmisi-content">
+                <div class="single-content">
+                    <p>Pemerintah Indonesia melakukan diagnosa COVID-19 dengan dua cara, yakni Polymerase Chain Reaction (PCR) dan rapid test. PCR menggunakan sampel air liur pasien untuk mencari bukti genetika virus COVID-19. Sementara rapid test menggunakan sampel darah untuk mengecek antibodi di dalam tubuh pasien yang sedang melawan virus.</p>
+                    <center><img src="assets/images/scientist.png" alt="corona" class="transmisi"></center>
+                </div>
+            </div>
+            <h1 >diagnosa <font class="name-covid">covid-19</font></h1>
             <div class="covid-virus transmisi">
                 <!-- untuk desktop -->
                 <div class="hide-mobile">
                 <div class="diagnosa-slider slider">
-                    <div class="transmisi-content">
-                        <div class="single-content">
-                            <img src="assets/images/scientist.png" alt="corona" class="transmisi">
-                            <p>Pemerintah Indonesia melakukan diagnosa COVID-19 dengan dua cara, yakni Polymerase Chain Reaction (PCR) dan rapid test. PCR menggunakan sampel air liur pasien untuk mencari bukti genetika virus COVID-19. Sementara rapid test menggunakan sampel darah untuk mengecek antibodi di dalam tubuh pasien yang sedang melawan virus.</p>
-                        </div>
-                    </div>
-                    <div class="transmisi-content">
-                        <div class="single-content">
-                            <img src="assets/images/cotton-swabs.png" alt="corona" class="transmisi">
-                            <p> hapus.</p>
-                        </div>
-                    </div>
                     <div class="transmisi-content atasi">
                         <ul>
                             <li class="hide-mobile" style="width:100vh">
@@ -144,18 +143,6 @@
                 <!-- untuk mobile -->
                 <div class="hide-desktop">
                 <div class="diagnosa-slider-mobile slider">
-                    <div class="transmisi-content">
-                        <div class="single-content">
-                            <img src="assets/images/scientist.png" alt="corona" class="transmisi">
-                            <p> Pemerintah Indonesia melakukan diagnosa COVID-19 dengan dua cara, yakni Polymerase Chain Reaction (PCR) dan rapid test. PCR menggunakan sampel air liur pasien untuk mencari bukti genetika virus COVID-19. Sementara rapid test menggunakan sampel darah untuk mengecek antibodi di dalam tubuh pasien yang sedang melawan virus.</p>
-                        </div>
-                    </div>
-                    <div class="transmisi-content">
-                        <div class="single-content">
-                            <img src="assets/images/cotton-swabs.png" alt="corona" class="transmisi">
-                            <p>hapus.</p>
-                        </div>
-                    </div>
                     <div class="transmisi-content">
                         <div class="single-content">
                             <img src="assets/images/sick.png" alt="corona" class="transmisi">
@@ -219,10 +206,9 @@
             <div class="slider-atasi">
                 <div class="content-slider-atasi contain-maps">
                     <p class="padding">Jika anda merasa mempunyai gejala-gejala COVID-19 yang parah dalam kurun waktu yang dijelaskan di atas dan sesuai dengan pedoman pemerintah, mohon segera melaporkan diri ke salah satu rumah sakit khusus rujukan COVID-19 di bawah ini.</p>
-                    <div class="map-container">
-                    </div>
-                    <p class="source">*Klik titik untuk melihat detil rumah sakit rujukan.</p>
                 </div>
+                <div class="map-container"></div>
+                <p class="source">*Klik titik untuk melihat detil rumah sakit rujukan.</p>
             </div>
         </div>
         <footer>
