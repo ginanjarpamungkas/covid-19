@@ -163,6 +163,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:650px){
+    .section-5{height: 135vh;}
     .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);font-size: 12px;}
     html{overflow-x: hidden;}
     h1, h1.pasien {font-size: 40px;}
@@ -210,7 +211,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .container p {padding: 0 40px;}
     .container p.source {bottom: -15px;font-size: 10px !important;}
     .legends {bottom:-13vh;font-weight: 300;}
-    .legends li {display: inline;font-size: 10px;}
+    .legends li {display: inline;font-size: 10px;text-shadow: unset;}
     .legend{padding: 0px 5px;}
     .content-slider-atasi ul, .transmisi-content ul.atasi{
         flex-direction: column;padding: 0;
