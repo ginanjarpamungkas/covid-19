@@ -3,6 +3,7 @@ body.hide-scroll{overflow: hidden;max-height: 100vh;}
 h1,h2,h3,h4,h5{margin: 0;}
 h1 {font-size: 100px;text-transform: uppercase;color: #000;text-align: center;font-weight: 900;margin-top: 20pt;}
 h1.pasien {font-size: 90px;margin-top: 20pt;}
+h1.name-covid {margin-top: unset;}
 h3 {font-size: 40px;text-align: center;text-transform: uppercase;}
 ul {list-style: none;padding: 0;}
 a{text-decoration: none;}
@@ -143,6 +144,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 @media only screen and (max-width:800px){
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
+    h1{padding: 0 20%;}
+    h1.pasien {padding: unset;}
     h1, h1.pasien {font-size: 60px;}
     h3 {font-size: 35px;}
     .menu-covid li a,.game-start{font-size: 30px;}
@@ -156,6 +159,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .slider-covid::-moz-range-track {width: 60%;}
     .slider-covid::-ms-track {width: 60%;}
     .content-slider-atasi ul li, .transmisi-content ul li{margin: 0;}
+    p {font-size: 20px !important;}
 }
 
 @media only screen and (max-width:650px){
@@ -195,6 +199,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     img.transmisi,.single-content img.transmisi {width: 200px;}
     p.padding{padding:0}
 
+    h1.start-section {font-size: 60px;max-width: 300px;margin: 0 auto;}
+    .game p.small-p, .game p{font-size: 16px;padding: 5pt 15pt;}
     .row {padding-left: 0;padding-right: 0;display: block;}
     .col-sm-6{position: relative;max-width: 100%;overflow: visible !important;}
     .count-covid {padding: 0;}
@@ -202,7 +208,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .col-4 h3 {font-size: 10pt;}
     .count {font-size: 20pt;padding: 10pt 0;}
     .container p {padding: 0 40px;}
-    .container p.source {bottom: -15px;font-size: 10px;}
+    .container p.source {bottom: -15px;font-size: 10px !important;}
     .legends {bottom:-13vh;font-weight: 300;}
     .legends li {display: inline;font-size: 10px;}
     .legend{padding: 0px 5px;}
@@ -216,7 +222,6 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 @media only screen and (max-width:380px){
     .section-5{height: 135vh;}
     h1, h1.pasien {font-size: 30px;}
-    h1.start-section {font-size: 60px;max-width: 295px;margin: 0 auto;}
     .box{font-size: 12px;}
     .box-2{top: 70px;}
     .box-3{top:185px}
@@ -228,7 +233,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:320px){
-    h1, h1.pasien {font-size: 45px;}
+    h1.start-section {max-width: 295px;}
+    h1, h1.pasien {font-size: 45px;padding: unset;}
     .box-1,.box-2,.box-3,.box-4,.box-5{left: 0;right: 0;}
     .human-covid {margin: 0 1em;}
     .human-covid li img{width: 80px;}
