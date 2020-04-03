@@ -145,7 +145,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .hide-mobile {display: none;}
     .hide-desktop {display: block;}
     h1{padding: 0 20%;}
-    h1.pasien {padding: unset;}
+    h1.start-section, h1.pasien {padding: unset;}
     h1, h1.pasien {font-size: 60px;}
     h3 {font-size: 35px;}
     .menu-covid li a,.game-start{font-size: 30px;}
