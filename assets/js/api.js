@@ -71,11 +71,11 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
             url: urlChart,
             async: true,
             type:'GET',
-            headers: {  'Access-Control-Allow-Origin': url },
             dataType: 'json',
             contentType: 'application/json',
             beforeSend: function(xhr) {
                 xhr.setRequestHeader("Authorization", "Basic "+btoa(USERNAME+':'+PASSWORD));
+                xhr.setRequestHeader("Access-Control-Allow-Origin", urlChart);
             },
             success: function(data) {
                 var pe=[]; var val1=[];cumulativeData = [0];
@@ -151,7 +151,7 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     }
 
     function chartRecovered(){
-        var urlChart= url + "dimension=dx:UEBmmFH8OzT&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME";
+        var urlChart= url + "dimension=dx:UEBmmFH8OzT&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME/";
         $.ajax({ 
             url: urlChart,
             async: true,
@@ -235,7 +235,7 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     }
 
     function chartDie(){
-        var urlChart= url + "dimension=dx:TAqRuO1R1eI&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME";
+        var urlChart= url + "dimension=dx:TAqRuO1R1eI&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME/";
         $.ajax({ 
             url: urlChart,
             async: true,
