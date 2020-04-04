@@ -72,10 +72,8 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
             async: true,
             type:'GET',
             dataType: 'json',
-            contentType: 'application/json',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic "+btoa(USERNAME+':'+PASSWORD));
-            },
+            enctype: 'multipart/form-data',
+            headers: {"Authorization": "Basic " + btoa(USERNAME + ":" + PASSWORD)},
             success: function(data) {
                 var pe=[]; var val1=[];cumulativeData = [0];
                 for (var i=0, len=data.rows.length; i<len; i++) {
@@ -156,10 +154,8 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
             async: true,
             type:'GET',
             dataType: 'json',
-            contentType: 'application/json',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic "+btoa(USERNAME+':'+PASSWORD));
-            },
+            enctype: 'multipart/form-data',
+            headers: {"Authorization": "Basic " + btoa(USERNAME + ":" + PASSWORD)},
             success: function(data) {
                 var pe=[]; var val1=[];cumulativeData = [0];
                 for (var i=0, len=data.rows.length; i<len; i++) {
@@ -239,10 +235,8 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
             async: true,
             type:'GET',
             dataType: 'json',
-            contentType: 'application/json',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic "+btoa(USERNAME+':'+PASSWORD));
-            },
+            enctype: 'multipart/form-data',
+            headers: {"Authorization": "Basic " + btoa(USERNAME + ":" + PASSWORD)},
             success: function(data) {
                 var pe=[]; var val1=[];cumulativeData = [0];
                 for (var i=0, len=data.rows.length; i<len; i++) {
