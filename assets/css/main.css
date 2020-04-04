@@ -85,10 +85,11 @@ hr{margin:10px 20pt}
 .count-covid{display: grid;grid-template-areas:'main main main';padding: 20pt;}
 .col-4{padding: 15pt 10pt;}
 .col-4 h3{text-align: center;color: #fff;background: #fff;margin-bottom: 20px;padding: 10px 0;}
-.count{font-size: 70pt;text-align: center;font-weight: bolder;background-color: #f79518;}
+.count{font-size: 70pt;text-align: center;font-weight: bolder;background-color: #f79518;display: flex;flex-direction: column;align-items: center;}
+.dunia{font-size: 20pt;}
 h3.positif{color: #ffc904;}
 h3.sembuh{color: #36aa01;}
-h3.mati{color: #fe0a0a;}
+h3.meninggal{color: #fe0a0a;}
 .contain-maps{position: relative;}
 .tooltip{position: absolute;padding: 8pt;z-index: 10;width: fit-content;margin: auto;background-color: #f79518;font-family: 'Montserrat',sans-serif;top: 100px;visibility:hidden;color: #fff;}
 .tooltip h4 {margin: 5px auto;font-weight: bold;}
@@ -132,6 +133,7 @@ footer .mouse-scroll:hover{color: #D3412A}
 footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bottom: 3px solid #D3412A;}
 .map-container{padding: 0 50pt;}
 @media only screen and (max-width:1200px){
+    .dunia{font-size: 15pt;}
     h1, h1.pasien {font-size: 80px;}
     .section-3 {height: fit-content;}
     .box-2{top:15vh}
@@ -150,6 +152,8 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     h1.start-section, h1.pasien {padding: unset;}
     h1, h1.pasien {font-size: 60px;}
     h3 {font-size: 35px;}
+    .col-4 h3 {font-size: 30px;}
+    .dunia{font-size: 10pt;}
     .menu-covid li a,.game-start{font-size: 30px;}
     .box-1,.box-3{left: 10px;}
     .box-2,.box-4{right: 10px;}
@@ -165,6 +169,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:650px){
+    .dunia{font-size: 8pt;}
     .section-5{height: 135vh;}
     .box, .box-slider {max-width: 100%;background-color: rgb(247,149,24,0.8);}
     html{overflow-x: hidden;}
@@ -237,6 +242,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
 }
 
 @media only screen and (max-width:320px){
+    .col-4 h3 {font-size: 8pt;}
     h1.start-section {max-width: 295px;}
     h1, h1.pasien {font-size: 45px;padding: unset;}
     .box-1,.box-2,.box-3,.box-4,.box-5{left: 0;right: 0;}

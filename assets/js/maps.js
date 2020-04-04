@@ -1,3 +1,22 @@
+var provinsi = ''
+$(document).ready(function() { getData() })
+function getData(){
+    var urlChart= 'https://api.kawalcorona.com/indonesia/provinsi/';
+    $.ajax({ 
+        url: urlChart,
+        async: true,
+        type:'GET',
+        dataType: 'json',
+        success: function(data) {
+            provinsi = data;
+        },
+        error: function(err) {
+                cache: false
+                console.log (err);
+        }
+    })    
+}
+
 var svg = d3.select(".map-container").append("svg").attr('x', 0).attr('y', 0).attr('viewBox', '0 0 960 500').attr('id', 'geo-map')
 var g_indonesia = svg.append("g").attr("class", "indonesia")
 var tooltip = d3.select("body").append("div").attr("class", "tooltip")
@@ -66,17 +85,18 @@ d3.json("indonesia-map.json",function(json) {
 
 function loadTooltip(d){
     var html = "";
-    d3.csv("data-positif-corona-per-provinsi.csv", function (error, data) {  
-        for (var i in data) {
-            if (data[i].Id == d.properties['id']) {
-                html += `<div style="max-width:300px">
-                <h4 class='kasus' style="padding-bottom:5px">` + data[i].Provinsi + `</h4>
-                <h4 style="font-weight:300">Positif :` + data[i].Positif + `</h4>
-                <h4 style="font-weight:300">Sembuh :` + data[i].Sembuh + `</h4>
-                <h4 style="font-weight:300">Meninggal :` + data[i].Meninggal + `</h4>
-                </div>`;
-                tooltip.html(html);
-            }
-        }            
+    $.each(provinsi,function(id,value) {
+        if (provinsi[id].attributes['Kode_Provi'] == d.properties['id']) {
+            html += `<div style="max-width:300px">
+            <h4 class='kasus' style="padding-bottom:5px">` + provinsi[id].attributes['Provinsi'] + `</h4>
+            <h4 style="font-weight:300">Positif :` + provinsi[id].attributes['Kasus_Posi'] + `</h4>
+            <h4 style="font-weight:300">Sembuh :` + provinsi[id].attributes['Kasus_Semb'] + `</h4>
+            <h4 style="font-weight:300">Meninggal :` + provinsi[id].attributes['Kasus_Meni'] + `</h4>
+            </div>`;
+            tooltip.html(html);
+        }else{
+            html += ``;
+            tooltip.html(html);
+        }
     });
 }

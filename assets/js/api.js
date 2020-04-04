@@ -7,29 +7,56 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     $(document).ready(function() { 
         boxData();
         chartConfirmed(); 
-        // $.when(chartConfirmed()).done(function() {
-        //     $(".chart-slider").slick({
-        //         dots: false,
-        //         arrows:true,
-        //         speed: 1000,
-        //     });
-        // })
     });
     function boxData(){
-        var urlChart= url + "dimension=dx:SlMC7W5vVRw;TAqRuO1R1eI;U7BaEXUa1Ii;UEBmmFH8OzT&dimension=pe:THIS_YEAR&filter=ou:amZZzlibrMp&skipData=false&skipMeta=false&includeNumDen=false&displayProperty=SHORTNAME";
         $.ajax({ 
-            url: urlChart,
+            url: 'https://api.kawalcorona.com/indonesia/',
             async: true,
             type:'GET',
             dataType: 'json',
-            contentType: 'application/json',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Basic "+btoa(USERNAME+':'+PASSWORD));
-            },
             success: function(data) {
-                document.getElementById("positif-count").innerHTML = data.rows[2][2].toLocaleString("id-ID",{style:'integer'} );
-                document.getElementById("sembuh-count").innerHTML = data.rows[3][2].toLocaleString("id-ID",{style:'integer'} );
-                document.getElementById("mati-count").innerHTML = data.rows[1][2].toLocaleString("id-ID",{style:'integer'} );
+                document.getElementById("positif-count").innerHTML = data[0].positif;
+                document.getElementById("sembuh-count").innerHTML = data[0].sembuh;
+                document.getElementById("meninggal-count").innerHTML = data[0].meninggal;
+            },
+            error: function(err) {
+                    cache: false
+                    console.log (err);
+            }
+        })    
+        $.ajax({ 
+            url: 'https://api.kawalcorona.com/positif/',
+            async: true,
+            type:'GET',
+            dataType: 'json',
+            success: function(data) {
+                document.getElementById("positif-dunia").innerHTML = 'Seluruh Dunia : '+data.value;
+            },
+            error: function(err) {
+                    cache: false
+                    console.log (err);
+            }
+        })    
+        $.ajax({ 
+            url: 'https://api.kawalcorona.com/sembuh/',
+            async: true,
+            type:'GET',
+            dataType: 'json',
+            success: function(data) {
+                document.getElementById("sembuh-dunia").innerHTML = 'Seluruh Dunia : '+data.value;
+            },
+            error: function(err) {
+                    cache: false
+                    console.log (err);
+            }
+        })    
+        $.ajax({ 
+            url: 'https://api.kawalcorona.com/meninggal/',
+            async: true,
+            type:'GET',
+            dataType: 'json',
+            success: function(data) {
+                document.getElementById("meninggal-dunia").innerHTML = 'Seluruh Dunia : '+data.value;
             },
             error: function(err) {
                     cache: false
