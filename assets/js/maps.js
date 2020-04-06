@@ -1,5 +1,5 @@
 var provinsi = ''
-$(document).ready(function() { getData() })
+// $(document).ready(function() { getData() })
 function getData(){
     var urlChart= 'https://api.kawalcorona.com/indonesia/provinsi/';
     $.ajax({ 
@@ -9,6 +9,31 @@ function getData(){
         dataType: 'json',
         success: function(data) {
             provinsi = data;
+            $.each(provinsi,function(id,value) {
+                if (provinsi[id].attributes['Kasus_Posi'] >= 100) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#682003')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 90) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#822804')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 80) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#9d380c')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 70) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#b44c1d')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 60) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#c86333')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 50) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#d97b4b')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 40) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#e89468')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 30) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#f3ae87')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 20) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#fbc8aa')
+                } else if (provinsi[id].attributes['Kasus_Posi'] >= 10) {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffe4d1')
+                } else {
+                    d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffffff')
+                }
+            })
         },
         error: function(err) {
                 cache: false
@@ -53,31 +78,7 @@ d3.json("indonesia-map.json",function(json) {
                                 tooltip.style('visibility','hidden');
                             });
     $.when(indonesia).done(function( x ) {
-        $.each(provinsi,function(id,value) {
-            if (value.Positif >= 100) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#682003')
-            } else if (value.Positif >= 90) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#822804')
-            } else if (value.Positif >= 80) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#9d380c')
-            } else if (value.Positif >= 70) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#b44c1d')
-            } else if (value.Positif >= 60) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#c86333')
-            } else if (value.Positif >= 50) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#d97b4b')
-            } else if (value.Positif >= 40) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#e89468')
-            } else if (value.Positif >= 30) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#f3ae87')
-            } else if (value.Positif >= 20) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#fbc8aa')
-            } else if (value.Positif >= 10) {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffe4d1')
-            } else {
-                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffffff')
-            }
-        })
+        getData()
     });
 });
 
