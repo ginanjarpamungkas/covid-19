@@ -53,32 +53,30 @@ d3.json("indonesia-map.json",function(json) {
                                 tooltip.style('visibility','hidden');
                             });
     $.when(indonesia).done(function( x ) {
-        d3.csv("data-positif-corona-per-provinsi.csv", function (error, data) {
-            $.each(data,function(id,value) {
-                if (value.Positif >= 100) {
-                    d3.select('#prov-'+value.Id).style("fill", '#682003')
-                } else if (value.Positif >= 90) {
-                    d3.select('#prov-'+value.Id).style("fill", '#822804')
-                } else if (value.Positif >= 80) {
-                    d3.select('#prov-'+value.Id).style("fill", '#9d380c')
-                } else if (value.Positif >= 70) {
-                    d3.select('#prov-'+value.Id).style("fill", '#b44c1d')
-                } else if (value.Positif >= 60) {
-                    d3.select('#prov-'+value.Id).style("fill", '#c86333')
-                } else if (value.Positif >= 50) {
-                    d3.select('#prov-'+value.Id).style("fill", '#d97b4b')
-                } else if (value.Positif >= 40) {
-                    d3.select('#prov-'+value.Id).style("fill", '#e89468')
-                } else if (value.Positif >= 30) {
-                    d3.select('#prov-'+value.Id).style("fill", '#f3ae87')
-                } else if (value.Positif >= 20) {
-                    d3.select('#prov-'+value.Id).style("fill", '#fbc8aa')
-                } else if (value.Positif >= 10) {
-                    d3.select('#prov-'+value.Id).style("fill", '#ffe4d1')
-                } else {
-                    d3.select('#prov-'+value.Id).style("fill", '#ffffff')
-                }
-            })
+        $.each(provinsi,function(id,value) {
+            if (value.Positif >= 100) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#682003')
+            } else if (value.Positif >= 90) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#822804')
+            } else if (value.Positif >= 80) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#9d380c')
+            } else if (value.Positif >= 70) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#b44c1d')
+            } else if (value.Positif >= 60) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#c86333')
+            } else if (value.Positif >= 50) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#d97b4b')
+            } else if (value.Positif >= 40) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#e89468')
+            } else if (value.Positif >= 30) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#f3ae87')
+            } else if (value.Positif >= 20) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#fbc8aa')
+            } else if (value.Positif >= 10) {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffe4d1')
+            } else {
+                d3.select('#prov-'+provinsi[id].attributes['Kode_Provi']).style("fill", '#ffffff')
+            }
         })
     });
 });
