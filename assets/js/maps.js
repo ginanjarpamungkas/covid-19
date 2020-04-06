@@ -65,7 +65,7 @@ d3.json("indonesia-map.json",function(json) {
                            .data(json.features).enter()
                            .append("path").attr("d", path)
                            .attr("id", function(d) {return "prov-"+d.properties['id'];})
-                           .style("fill", '#000')
+                           .style("fill", '#ffffff')
                            .attr("stroke", "#000")
                            .attr("stroke-width", 0.5)
                            .on("mouseover", function (d) {
