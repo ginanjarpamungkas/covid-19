@@ -90,11 +90,11 @@ hr{margin:10px 20pt}
 h3.positif{color: #ffc904;}
 h3.sembuh{color: #36aa01;}
 h3.meninggal{color: #fe0a0a;}
-.contain-maps{position: relative;}
+.slider-atasi, .contain-maps{position: relative;}
 .tooltip{position: absolute;padding: 8pt;z-index: 10;width: fit-content;margin: auto;background-color: #f79518;font-family: 'Montserrat',sans-serif;top: 100px;visibility:hidden;color: #fff;}
 .tooltip h4 {margin: 5px auto;font-weight: bold;}
 .tooltip h4.kasus{border-bottom: 10px solid #fff;}
-.container p.source{padding-left:15pt;position: absolute;left: 0;bottom: 0;}
+p.source{padding: 0 10px !important;position: absolute;left: 0;bottom: 0;}
 .legends{padding: 15pt;font-weight: bolder;position: absolute;right: 0;bottom: 0;}
 .legends li {margin: 10px auto;text-transform: uppercase;text-shadow: 1px 1px #000;}
 .legend{padding: 1px 10px ;margin-right: 2px;border: 1px solid #000;}
@@ -199,7 +199,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     ul.box-box-slider {display: block;position: relative;}
     .box-box-slider li {position: absolute;top:0}
     .transmisi-content ul {padding: 20pt 6pt;}
-    .content-slider-atasi, .single-content {padding: 20pt 40px;}
+    .content-slider-atasi, .single-content {padding: 0 20px;}
     .content-slider-atasi p,.single-content p {font-weight: unset;}
     .transmisi-content ul li{margin: 0 30px;font-weight: unset;font-size: 20px;}
     .transmisi-content.atasi ul li{font-size: 25px;}
@@ -217,7 +217,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .col-4 h3 {font-size: 10pt;}
     .count {font-size: 20pt;padding: 10pt 5pt;}
     .container p {padding: 0 40px;}
-    .container p.source {bottom: -15px;font-size: 10px !important;}
+    p.source {bottom: -15px;font-size: 10px !important;}
     .legends {bottom:-13vh;font-weight: 300;}
     .legends li {display: inline;font-size: 10px;text-shadow: unset;}
     .legend{padding: 0px 5px;}
