@@ -69,7 +69,7 @@ img.transmisi {width: 150px;margin: 10px auto;}
 
 .section-5 {display: flex;flex-direction: column;justify-content: center;overflow: hidden;}
 .game {height: auto;}
-.game p {text-align: center;padding: 20pt;font-size: 20px;font-weight: bold;}
+.game p {text-align: center;padding: 5pt 20pt;font-size: 20px;font-weight: bold;}
 .game p.small-p{font-size: 16px;padding: 5pt 100pt;}
 .start-section{z-index: 3;}
 .hide-mobile {display: block;}
@@ -215,7 +215,7 @@ footer .mouse-scroll:hover>.icon-arrow{border-left: 3px solid #D3412A;border-bot
     .count-covid {padding: 0;}
     .col-4 {padding: 5pt;}
     .col-4 h3 {font-size: 10pt;}
-    .count {font-size: 20pt;padding: 10pt 0;}
+    .count {font-size: 20pt;padding: 10pt 5pt;}
     .container p {padding: 0 40px;}
     .container p.source {bottom: -15px;font-size: 10px !important;}
     .legends {bottom:-13vh;font-weight: 300;}

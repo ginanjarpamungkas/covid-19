@@ -151,7 +151,7 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     }
 
     function chartRecovered(){
-        var urlChart= url + "dimension=dx:UEBmmFH8OzT&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME/";
+        var urlChart= url + "dimension=dx:UEBmmFH8OzT&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME";
         $.ajax({ 
             url: urlChart,
             async: true,
@@ -235,7 +235,7 @@ var colorConfirmed="#76cc8d";var colorRecovered="#2f7ed8";var colorDie="#d43f2f"
     }
 
     function chartDie(){
-        var urlChart= url + "dimension=dx:TAqRuO1R1eI&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME/";
+        var urlChart= url + "dimension=dx:TAqRuO1R1eI&dimension=pe:LAST_14_DAYS;TODAY&filter=ou:amZZzlibrMp&skipData=false&skipMeta=true&includeNumDen=false&displayProperty=SHORTNAME";
         $.ajax({ 
             url: urlChart,
             async: true,
